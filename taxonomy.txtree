@@ -13,6 +13,7 @@ Animalia [kingdom]
           Serpula [genus]
           Spirorbis [genus]
             Spirorbis borealis [species]
+
               =Spirorbis spirorbis [species]
       Spionida [order]
         Spionidae [family]
@@ -1377,6 +1378,7 @@ Animalia [kingdom]
               =Mustela furo [species]
             Mustela putorius [species]
               =Putorius putorius [species]
+            Mustela lutreola [species] {VERN=nld:Europese nerts}
         Phocidae [family] {VERN=nld:robben}
           Halichoerus [genus]
             Halichoerus grypus [species] {VERN=nld:kegelrob}
