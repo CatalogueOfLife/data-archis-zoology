@@ -1763,6 +1763,7 @@ Animalia [kingdom]
     Opisthopora [order]
       Lumbricidae [family]
   Cnidaria [phylum]
+    Anthozoa [class] {VERN=nld: bloemdieren}
     Hydrozoa [class] {VERN=nld:poliepen}
       Filifera [order]
         Hydractiniidae [family]
