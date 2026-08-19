@@ -1025,6 +1025,7 @@ Animalia [kingdom]
           Pelobates [genus]
             Pelobates fuscus [species]
         Ranidae [family] {VERN=nld:kikvorsen}
+          Pelophylax [genus]
           Rana [genus]
             Rana arvalis [species]
             Rana dalmatina [species]
@@ -1974,7 +1975,7 @@ Animalia [kingdom]
           Callista [genus]
             Callista chione [species]
           Chamelea [genus]
-            Chamelea gallina [species] {VERN=eng:venus shell}
+            Chamelea gallina [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp}
               =Chamelea striatula [species]
           Dosinia [genus]
             Dosinia exoleta [species] {VERN=nld:artemisschelp}
