@@ -1869,10 +1869,10 @@ Animalia [kingdom]
               =Aequipecten opercularis [species]
             Chlamys varia [species]
               =Mimachlamys varia [species]
-      Petricolidae [family]
-        Petricola [genus]
-          Petricola pholadiformis [species]
-            =Petricolaria pholadiformis [species]
+        Petricolidae [family]
+          Petricola [genus]
+            Petricola pholadiformis [species]
+              =Petricolaria pholadiformis [species]
       Pholadomyoida [order]
         Thraciidae [family]
           Thracia [genus]
@@ -1896,7 +1896,7 @@ Animalia [kingdom]
             Anodonta cygnaea [species] {VERN=nld:zwanemossel}
               =Anodonta cygnea [species]
           Unio [genus]
-            Unio crassus [species] {VERN=nld:stroommossel}
+            Unio crassus [species] {VERN=nld:Bataafse stroommossel}
               =Unio batavus [species]
             Unio pictorum [species]
             Unio tumidus [species]
@@ -1905,8 +1905,9 @@ Animalia [kingdom]
           Arctica [genus]
             Arctica islandica [species]
         Astartidae [family]
-          Astarte [genus]
-            Astarte montagui [species] {VERN=nld:astarte montagui}
+          Tridonta [genus]
+            Tridonta montagui [species] {VERN=nld:Driehoekige astarte}
+              =Astarte montagui [species]
         Cardiidae [family]
           Acanthocardia [genus]
             Acanthocardia echinata [species]
@@ -1956,7 +1957,7 @@ Animalia [kingdom]
             Ensis arcuatis [species]
               =Ensis magnus [species]
             Ensis ensis [species] {VERN=eng:common razor}
-            Ensis siliqua [species] {VERN=nld:tafelmesheft}
+            Ensis siliqua [species] {VERN=nld:groot tafelmesheft}
         Psammobiidae [family]
           Gari [genus]
             Gari fervensis [species]
@@ -2004,12 +2005,13 @@ Animalia [kingdom]
             Chamelea gallina [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp}
               =Chamelea striatula [species]
           Dosinia [genus]
-            Dosinia exoleta [species] {VERN=nld:artemisschelp}
+            Dosinia exoleta [species] {VERN=nld:gewone artemisschelp}
           Mercenaria [genus]
             Mercenaria mercenaria [species]
           Venerupis [genus]
-            Venerupis pullastra [species] {VERN=nld:tapijtschelp}
+            Venerupis corrugata [species] {VERN=nld:tapijtschelp}
               =Venerupis senegalensis [species]
+              =Venerupis pullastra [species]
           Venus [genus]
             Venus verrucosa [species] {VERN=eng:warted venus shell}
     Bryozoa [class]
@@ -2026,7 +2028,7 @@ Animalia [kingdom]
       Archaeogastropoda [order]
         Haliotidae [family]
           Haliotis [genus]
-            Haliotis tuberculata [species] {VERN=nld:gewone zeeoor}
+            Haliotis tuberculata [species] {VERN=nld:zee-oor,nld:gewone zeeoor}
         Patellidae [family]
           Patella [genus]
             Patella athletica [species]
@@ -2036,7 +2038,7 @@ Animalia [kingdom]
             Patella vulgata [species]
         Trochidae [family]
           Calliostoma [genus]
-            Calliostoma zizyphinum [species] {VERN=nld:europese tolhoren}
+            Calliostoma zizyphinum [species] {VERN=nld:gewone priktolhoren}
           Gibbula Risso, 1826 [genus]
             Gibbula magus [species]
           Jujubinus [genus]
@@ -2054,7 +2056,7 @@ Animalia [kingdom]
         Viviparidae [family]
           Viviparus [genus]
             Viviparus contectus [species]
-            Viviparus viviparus [species] {VERN=nld:riviermoerasslak}
+            Viviparus viviparus [species] {VERN=nld:stompe moerasslak,nld:riviermoerasslak}
               =Viviparus lacustris [species]
       Basommatophora [order]
         Ellobiidae [family]
@@ -2078,7 +2080,7 @@ Animalia [kingdom]
       Ectobranchia [order]
         Valvatidae [family]
           Valvata [genus]
-            Valvata cristata [species] {VERN=nld:kleine pluimdrager}
+            Valvata cristata [species] {VERN=nld:platte pluimdrager,nld:kleine pluimdrager}
             Valvata piscinalis [species]
       Heterogastropoda [order]
         Epitoniidae [family]
@@ -2107,14 +2109,14 @@ Animalia [kingdom]
               =Littorina tenebrosa [species]
         Naticidae [family]
           Euspira Agassiz, 1837 [genus]
-            Euspira catena [species] {VERN=nld:tepelhoren}
+            Euspira catena [species] {VERN=nld:grote tepelhoren}
               =Natica catena [species]
             Euspira nitida [species]
               =Euspira poliana [species]
           Policines [genus]
         Pomatiasidae [family]
           Pomatias [genus]
-            Pomatias elegans (O. F. Müller, 1774) [species] {VERN=nld:rondmondslak}
+            Pomatias elegans (O. F. Müller, 1774) [species] {VERN=nld:geruite rondmondhoren}
         Rissoellidae [family]
           Rissoella [genus]
             Rissoella diaphana [species]
@@ -2125,7 +2127,7 @@ Animalia [kingdom]
         Triviidae [family]
           Trivia [genus]
             Trivia arctica [species]
-            Trivia monacha [species] {VERN=nld:gevlekte ribkaurie,nld:koffieboontje}
+            Trivia monacha [species] {VERN=nld:gevlekte ribkaurie,nld:gevlekt koffieboontje}
         Turritellidae [family]
           Turritella Lamarck, 1799 [genus]
             Turritella communis [species]
@@ -2166,7 +2168,7 @@ Animalia [kingdom]
       Neotaenioglossa [order]
         Assimineidae [family]
           Assiminea [genus]
-            Assiminea grayana [species] {VERN=nld:kustslakje}
+            Assiminea grayana [species] {VERN=nld:Gray's kustslak}
         Bithyniidae [family]
           Bithynia [genus]
             Bithynia leachii [species]
@@ -2184,9 +2186,9 @@ Animalia [kingdom]
               =Mercuria anatina [species]
           Peringia [genus]
             Peringia ulvae [species]
+              =Hydrobia ulvae [species]
           Hydrobia [genus]
             Hydrobia stagnarum [species]
-            Hydrobia ulvae [species]
             Hydrobia ventrosa [species]
               =Ecrobia ventrosa [species]
       Neritaemorphi [order]
@@ -2207,7 +2209,8 @@ Animalia [kingdom]
             Radix auricularia [species]
             Radix ovata [species]
               =Radix balthica [species]
-            Radix peregra [species]
+            Radix labiata [species]
+              =Radix peregra [species]
           Stagnicola Jeffreys, 1830 [genus]
             Stagnicola palustris [species]
               =Lymnaea palustris [species]
@@ -2245,19 +2248,20 @@ Animalia [kingdom]
             Bradybaena fruticum [species] {VERN=nld:struikslak}
               =Fruticicola fruticum [species]
         Clausiliidae [family]
+          Alinda [genus]
+            Alinda biplicata [species] {VERN=nld:grote clausilia}
           Balea [genus]
-            Balea biplicata [species] {VERN=nld:grote spoelhoren}
-            Balea perversa [species] {VERN=nld:schorshorentje}
+            Balea perversa [species] {VERN=nld:slanke schorshoren}
           Clausilia [genus]
             Clausilia dubia [species]
-            Clausilia nigricans [species] {VERN=nld:vale regenslak}
+            Clausilia nigricans [species] {VERN=nld:vale clausilia}
               =Clausilia bidentata [species]
-            Clausilia parvula [species] {VERN=nld:kleine regenslak}
+            Clausilia parvula [species] {VERN=nld:kleine clausilia}
               =Clausilia rugosa [species]
-            Clausilia rolphii [species] {VERN=nld:gekielde regenslak}
+            Clausilia rolphii [species] {VERN=nld:gekielde clausilia}
               =Macrogastra rolphii [species]
           Cochlodina [genus]
-            Cochlodina laminata [species] {VERN=nld:gladde regenslak}
+            Cochlodina laminata [species] {VERN=nld:gladde clausilia}
         Cochlicopidae [family]
           Cochlicopa A. Férussac, 1821 [genus]
             Cochlicopa lubrica [species]
@@ -2368,7 +2372,7 @@ Animalia [kingdom]
       Dentaliida [order]
         Dentaliidae [family]
           Dentalium [genus]
-            Dentalium entale [species] {VERN=nld:olifantstand,nld:stoottand}
+            Dentalium entale [species] {VERN=nld:gladde olifantstand,nld:stoottand}
               =Antalis entalis [species]
             Dentalium vulgare [species]
               =Antalis vulgaris [species]
