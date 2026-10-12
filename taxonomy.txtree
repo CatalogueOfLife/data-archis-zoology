@@ -1,7 +1,7 @@
 Animalia [kingdom]
   Annelida [phylum]
-    Hirudinea [class]
-    Polychaeta [class]
+    Hirudinea [class] {VERN=nld:bloedzuigers,eng:leeches}
+    Polychaeta [class] {VERN=nld:mariene borstelwormen,eng:marine bristle worms}
       Phyllodocida [order]
         Nereididae [family]
           Nereis [genus]
@@ -9,7 +9,7 @@ Animalia [kingdom]
       Sabellida [order]
         Serpulidae [family]
           Pomatoceros [genus]
-            Pomatoceros triqueter [species]
+            Pomatoceros triqueter [species] {VERN=nld:driekantige kalkkokerworm}
           Serpula Linnaeus, 1758 [genus]
           Spirorbis [genus]
             Spirorbis borealis [species]
@@ -17,19 +17,19 @@ Animalia [kingdom]
       Spionida [order]
         Spionidae [family]
           Polydora Bosc, 1802 [genus]
-            Polydora ciliata [species]
+            Polydora ciliata [species] {VERN=eng:bristle worm}
       Terebellida [order]
         Pectinariidae [family]
           Lagis [genus]
-            Lagis koreni [species]
-  Arthropoda [phylum]
-    Acari [class]
+            Lagis koreni [species] {VERN=nld:Goudkammetje,eng:trumpet worm}
+  Arthropoda [phylum] {VERN=nld:geleedpotigen,eng:arthropods}
+    Acari [class] {VERN=nld:mijten,eng:mites}
       Acaridida [order]
         Analgesidae [family]
           =Analgidae [unranked]
         Hydrachnidae [family]
           Tyrophagus [genus]
-      Gamasina [order]
+      Gamasina [order] {VERN=nld:roofmijten,eng:predatory mites}
         Ameroseiidae [family]
           Ameroseius [genus]
             Ameroseius plumosus [species]
@@ -118,13 +118,13 @@ Animalia [kingdom]
             Uropoda baloghi [species]
             Uropoda minima [species]
             Uropoda orbicularis [species]
-    Arachnida [class]
+    Arachnida [class] {VERN=nld:spinachtigen,eng:arachnids}
       Actinedida [order]
         =Prostigmata [unranked]
         Acarididae [family]
         Cheyletidae [family]
         Pyroglyphidae [family]
-      Araneae [order]
+      Araneae [order] {VERN=nld:spinnen,eng:spiders}
       Astigmata [order]
         Glycyphagidae [family]
           Glycyphagus [genus]
@@ -134,7 +134,7 @@ Animalia [kingdom]
         Gamasida [superfamily]
         Parasitidae [family]
           Parasitinae [subfamily]
-      Oribatida [order]
+      Oribatida [order] {VERN=nld:mosmijten,eng:moss mites}
         Achipteriidae [family]
           Achipteria [genus]
             Achipteria coleoptrata [species]
@@ -311,7 +311,7 @@ Animalia [kingdom]
             Punctoribates punctum [species]
             Punctoribates quadrivertex [species]
               =Zachvatkinibates quadrivertex [species]
-            Punctoribates sellnicki [species]
+            Punctoribates sellnicki [species] {VERN=nld:kleine champignonmijt}
         Nanhermanniidae [family]
           Nanhermannia [genus]
             Nanhermannia coronata [species]
@@ -410,44 +410,44 @@ Animalia [kingdom]
         Zetomimidae [family]
           Zetomimus [genus]
             Zetomimus furcatus [species]
-      Pseudoscorpiones [order]
+      Pseudoscorpiones [order] {VERN=nld:pseudoschorpioenen,eng:pseudoscorpions}
         =Pseudoscorpionida [unranked]
     Branchiopoda [class]
       Cladocera [order]
         =Diplostraca [unranked]
         Daphniidae [family]
           Daphnia O.F.Müller, 1785 [genus]
-    Chilopoda [class]
-    Crustacea [class]
+    Chilopoda [class] {VERN=nld:duizendpoten,eng:centipede}
+    Crustacea [class] {VERN=nld:schaaldieren,eng:crustacea}
       Thoracica [order]
         Balanidae [family]
           Balanus [genus]
-            Balanus balanoides [species]
+            Balanus balanoides [species] {VERN=nld:gewone zeepok}
               =Semibalanus balanoides [species]
-            Balanus improvisus [species]
+            Balanus improvisus [species] {VERN=nld:brakwaterpok,eng:bay barnacle}
         Lepadidae [family]
           Cetopirus [genus]
-            Cetopirus complanatus [species]
-    Diplopoda [class]
+            Cetopirus complanatus [species] {VERN=nld:zeepok}
+    Diplopoda [class] {VERN=nld:miljoenpoten}
     Entognatha [class]
-      Collembola [order]
-    Insecta [class]
-      Anoplura [order]
+      Collembola [order] {VERN=nld:springstaarten,eng:springtails}
+    Insecta [class] {VERN=nld:insecten,eng:insects}
+      Anoplura [order] {VERN=nld:luizen,eng:lice}
         Pediculidae [family]
           Pediculus [genus]
-            Pediculus humanus [species] {VERN=nld:mensenluis}
-      Coleoptera [order]
-        Anobiidae [family]
+            Pediculus humanus [species] {VERN=nld:mensenluis,nld:hoofdluis}
+      Coleoptera [order] {VERN=nld:kevers,eng:beetles}
+        Anobiidae [family] {VERN=nld:klopkevers}
           Anobium [genus]
-            Anobium punctatum [species]
+            Anobium punctatum [species] {VERN=nld:gewone houtwormkever,eng:common furniture beetle}
           Stegobium [genus]
-            Stegobium paniceum [species]
-        Anthicidae [family]
+            Stegobium paniceum [species] {VERN=nld:broodkever,eng:bread beetle}
+        Anthicidae [family] {VERN=nld:snoerhalskevers,eng:ant-like flower beetles}
           Anthicus [genus]
-            Anthicus antherinus [species]
+            Anthicus antherinus [species] {VERN=nld:bloemensnoerhalskever}
             Anthicus gracilis [species]
               =Cordicollis gracilis [species]
-        Anthribidae [family]
+        Anthribidae [family] {VERN=nld:boksnuitkevers,eng:fungus weevils}
           Brachytarsus [genus]
             Anthribus nebulosus Forster, J.R., 1770 [species]
               =Brachytarsus nebulosus Kuester, 1850 [species]
@@ -458,26 +458,26 @@ Animalia [kingdom]
             Apion curtirostre [species]
               =Perapion curtirostre [species]
           Nanophyes [genus]
-            Nanophyes marmoratus [species]
-        Byrrhidae [family]
+            Nanophyes marmoratus [species] {VERN=nld:dwerg-kattenstaartsnuitkever}
+        Byrrhidae [family] {VERN=nld:pilkevers,eng:pill beetles}
           Simplocaria [genus]
             Simplocaria semistriata [species]
           Syncalypta [genus]
             =Chaetophora [unranked]
-        Carabidae [family]
+        Carabidae [family] {VERN=nld:loopkevers,eng:ground beetles}
           Acupalpus [genus]
             Acupalpus brunnipes [species]
           Agonum [genus]
-            Agonum muelleri [species]
+            Agonum muelleri [species] {VERN=nld:Müller's pronkloopkever}
             Paranchus albipes (Fabricius, 1796) [species]
-              =Agonum ruficorne (Goetze, 1777) [species]
+              =Agonum ruficorne (Goetze, 1777) [species] {VERN=nld:oeversnelloper}
             Agonum thoreyi [species]
-          Amara [genus]
-            Amara aenea [species]
+          Amara [genus] {VERN=nld:glansloopkevers,eng:sun beetles}
+            Amara aenea [species] {VERN=nld:bronskleurige glansloopkever,eng:common sun beetle}
             Amara anthobia [species]
             Amara bifrons [species]
             Amara lunicollis [species]
-            Amara plebeja [species]
+            Amara plebeja [species] {VERN=nld:gewone glansloopkever}
             Amara similata [species]
           Anisodactylus [genus]
             Anisodactylus binotatus [species]
@@ -493,12 +493,12 @@ Animalia [kingdom]
             Bradycellus ruficollis [species]
             Bradycellus verbasci [species]
           Carabus [genus]
-            Carabus auratus [species]
-            Carabus granulatus [species]
-            Carabus nemoralis [species]
+            Carabus auratus [species] {VERN=nld:gouden loopkever,eng:golden ground beetle}
+            Carabus granulatus [species] {VERN=nld:gekorrelde veldloopkever}
+            Carabus nemoralis [species] {VERN=nld:tuinloopkever,eng:bronze carabid}
           Clivina [genus]
             Clivina collaris [species]
-            Clivina fossor [species]
+            Clivina fossor [species] {VERN=nld:bietengraafkever}
           Dromius [genus]
             Dromius linearis [species]
               =Paradromius linearis [species]
@@ -514,11 +514,11 @@ Animalia [kingdom]
             Incagonum fuscoaeneum (Gemminger & Harold, 1868) [species]
               =Agonum fuliginosum (Dejean, 1831) [species]
           Loricera [genus]
-            Loricera pilicornis [species]
+            Loricera pilicornis [species] {VERN=nld:haarsprietloopkever}
           Nebria [genus]
-            Nebria brevicollis [species]
+            Nebria brevicollis [species] {VERN=nld:oeverloper}
           Notiophilus [genus]
-            Notiophilus biguttatus [species]
+            Notiophilus biguttatus [species] {VERN=nld:tweevlekkige snelkever}
           Oodes [genus]
             Oodes helopioides [species]
           Patrobus [genus]
@@ -533,7 +533,7 @@ Animalia [kingdom]
             Pterostichus anthracinus [species]
             Pterostichus diligens [species]
             Pterostichus gracilis [species]
-            Pterostichus melanarius [species]
+            Pterostichus melanarius [species] {VERN=nld:gewone streeploopkever}
             Pterostichus minor [species]
             Pterostichus strenuus [species]
             Pterostichus vernalis [species]
@@ -545,92 +545,92 @@ Animalia [kingdom]
               =Trechoblemus micros [species]
           Trichocellus [genus]
             Trichocellus cognatus [species]
-        Chrysomelidae [family]
+        Chrysomelidae [family] {VERN=nld:bladkevers,eng:leaf beetles}
           Cassida [genus]
           Chaetocnema [genus]
-            Chaetocnema concinna [species]
+            Chaetocnema concinna [species] {VERN=nld:blauwe bietenaardvlo}
           Epitrix [genus]
-            Epitrix pubescens [species]
+            Epitrix pubescens [species] {VERN=nld:nachtschade-aardvlo}
           Lema [genus]
           Longitarsus [genus]
           Oulema [genus]
           Plateumaris [genus]
             Plateumaris discolor [species]
-            Plateumaris sericea [species]
-        Clambidae [family]
+            Plateumaris sericea [species] {VERN=nld:trage rietkever}
+        Clambidae [family] {VERN=nld:oprolkogeltjes,eng:minute beetles}
           Clambus [genus]
             Clambus minutus [species]
             Clambus pubescens [species]
-        Coccinellidae [family]
+        Coccinellidae [family] {VERN=nld:lieveheersbeestjes,eng:ladybirds}
           Coccidula [genus]
-            Coccidula rufa [species]
-        Corylophidae [family]
+            Coccidula rufa [species] {VERN=nld:ongevlekt rietkapoentje}
+        Corylophidae [family] {VERN=nld:molmkogeltjes,eng:minute fungus beetles}
           Corylophus [genus]
             Corylophus cassidoides [species]
-        Cryptophagidae [family]
+        Cryptophagidae [family] {VERN=nld:harige schimmelkevers,eng:silken fungus beetles}
           Atomaria [genus]
             Atomaria gutta [species]
             Atomaria testacea Stephens, 1830 [species]
               =Atomaria ruficornis (Marsham, 1802) [species]
           Cryptophagus [genus]
-        Curculionidae [family]
+        Curculionidae [family] {VERN=nld:snuitkevers,eng:true weevils}
           Bagous [genus]
             Bagous lutulosus [species]
           Hypera [genus]
-            Hypera postica [species]
+            Hypera postica [species] {VERN=nld:gewone luzernekever}
             Hypera suspiciosa [species]
             Hypera venusta [species]
           Limnobaris [genus]
             Limnobaris pilistriata [species]
               =Limnobaris dolorosa [species]
           Micrelus [genus]
-            Micrelus ericae [species]
+            Micrelus ericae [species] {VERN=nld:kleine heidekruidsnuitkever}
           Notaris [genus]
             Notaris scirpi [species]
           Otiorhynchus [genus]
-            Otiorhynchus sulcatus [species]
+            Otiorhynchus sulcatus [species] {VERN=nld:gegroefde lapsnuitkever,eng:black vine weevil}
           Rhyncolus [genus]
             Phloeophagus lignarius (Marsham, T., 1802) [species]
               =Rhyncolus lignarius [species]
           Sitona [genus]
-            Sitona lineatus [species]
+            Sitona lineatus [species] {VERN=nld:bladrandkever}
           Sitophilus [genus]
-            Sitophilus granarius [species]
+            Sitophilus granarius [species] {VERN=nld:graanklander,eng:wheat weevil}
           Tanysphyrus [genus]
-            Tanysphyrus lemnae [species]
+            Tanysphyrus lemnae [species] {VERN=nld:kroossnuittorretje}
           Thryogenes [genus]
             Thryogenes nereis [species]
           Tychius [genus]
             Tychius picirostris [species]
         Dermestidae [family]
           Attagenus [genus]
-            Attagenus pellio [species]
-        Dytiscidae [family]
+            Attagenus pellio [species] {VERN=nld:pelskever,eng:fur beetle}
+        Dytiscidae [family] {VERN=nld:waterroofkevers,eng:predaceous diving beetles}
           Agabus [genus]
           Graptodytes [genus]
           Hydroporus [genus]
-        Elateridae [family]
+        Elateridae [family] {VERN=nld:kniptorren,eng:click beetles}
           Agriotes [genus]
-            Agriotes lineatus [species]
-        Heteroceridae [family]
+            Agriotes lineatus [species] {VERN=nld:gestreepte kniptor,eng:lined click beetle}
+        Heteroceridae [family] {VERN=nld:oevergraafkevers,eng:variegated mud-loving beetles}
           Heterocerus [genus]
             Heterocerus flexuosus [species]
             Heterocerus obsoletus [species]
-        Histeridae [family]
+        Histeridae [family] {VERN=nld:spiegelkevers,eng:clown beetles}
           Acritus [genus]
             Acritus nigricornis [species]
           Hister [genus]
             Hister bissexstriatus [species]
             Margarinotus (Ptomister) brunneus (Fabricius, 1775) [species]
-              =Hister impressus Fabricius 1798 [species]
+              =Hister impressus Fabricius 1798 [species] {VERN=nld:aasplompkever}
             Margarinotus (Ptomister) merdarius (Hoffmann, 1803) [species]
               =Hister merdarius [species]
-        Hydraenidae [family]
+        Hydraenidae [family] {VERN=nld:waterkruipers}
           Ochthebius [genus]
             Ochthebius dilatatus [species]
             Ochthebius marinus [species]
             Ochthebius viridis [species]
-        Hydrophilidae [family]
+        Hydrophilidae [family] {VERN=nld:spinnende waterkevers,eng:water scavenger beetles}
           Anacaena [genus]
           Cercyon [genus]
             Cercyon analis [species]
@@ -641,7 +641,7 @@ Animalia [kingdom]
             Cercyon terminatus [species]
             Cercyon tristis [species]
           Chaetarthria [genus]
-            Chaetarthria seminulum [species]
+            Chaetarthria seminulum [species] {VERN=nld:oeverkogeltje}
           Coelostoma Brullé, 1835 [genus]
             Coelostoma orbiculare [species]
           Cymbiodyta [genus]
@@ -650,7 +650,7 @@ Animalia [kingdom]
           Enochrus [genus]
           Helophorus [genus]
           Hydrobius [genus]
-            Hydrobius fuscipes [species]
+            Hydrobius fuscipes [species] {VERN=nld:roodpootwaterkever}
           Hydrochus [genus]
             Hydrochus brevis [species]
           Megasternum [genus]
@@ -661,8 +661,8 @@ Animalia [kingdom]
             Paracymus aeneus [species]
           Sphaeridium [genus]
             Sphaeridium lunatum [species]
-            Sphaeridium scarabaeoides [species]
-        Latridiidae [family]
+            Sphaeridium scarabaeoides [species] {VERN=nld:mestkogeltje}
+        Latridiidae [family] {VERN=nld:schimmelkevers,eng:minute brown scavenger beetles}
           Cartodere [genus]
             Cartodere constricta [species]
           Corticariinae [subfamily]
@@ -677,15 +677,15 @@ Animalia [kingdom]
           Monotoma [genus]
             Monotoma brevicollis [species]
             Monotoma spinicollis [species]
-        Phalacridae [family]
+        Phalacridae [family] {VERN=nld:glanzende bloemkevers,eng:shining flower beetles}
           Olibrus [genus]
-            Olibrus aeneus [species]
+            Olibrus aeneus [species] {VERN=nld:gladde streepglanskever}
           Stilbus [genus]
             Stilbus oblongus [species]
             Stilbus testaceus [species]
         Pselaphidae [family]
           =Pselaphinae [unranked]
-        Ptiliidae [family]
+        Ptiliidae [family] {VERN=nld:veervleugelkevers,eng:featherwing beetles}
           Acrotrichis [genus]
           Actidium [genus]
             Actidium boudieri [species]
@@ -699,22 +699,22 @@ Animalia [kingdom]
             Ptinella britannica [species]
         Ptinidae [family]
           =Ptininae [unranked]
-        Rhizophagidae [family]
-        Scarabaeidae [family]
+        Rhizophagidae [family] {VERN=nld:kerkhofkevers}
+        Scarabaeidae [family] {VERN=nld:bladsprietkevers,eng:scarabs}
           Aphodius [genus]
-            Aphodius fimetarius [species]
+            Aphodius fimetarius [species] {VERN=nld:roodschildveldmestkever}
             Liothorax plagiatus (Linnaeus, 1767) [species]
               =Aphodius plagiatus [species]
           Onthophagus [genus]
-            Onthophagus nuchicornis [species]
+            Onthophagus nuchicornis [species] {VERN=nld:rechthoornpillendraaier}
           Oxyomus [genus]
-            Oxyomus sylvestris [species]
-        Scirtidae [family]
+            Oxyomus sylvestris [species] {VERN=nld:dwergmestkevertje}
+        Scirtidae [family] {VERN=nld:moerasweekschilden}
           Elodes Latreille, 1797 [genus]
             =Cyphon Paykull, 1799 [genus]
           Microcara [genus]
-            Microcara testacea [species]
-        Scydmaenidae [family]
+            Microcara testacea [species] {VERN=nld:bruine haarkever}
+        Scydmaenidae [family] {VERN=nld:valse knotskevers,eng:ant-like stone beetles}
           Euconnus [genus]
           Euthia [genus]
             =Eutheia [unranked]
@@ -724,13 +724,13 @@ Animalia [kingdom]
             Stenichnus collaris [species]
         Silphidae [family]
           Silpha [genus]
-        Staphylinidae [family]
+        Staphylinidae [family] {VERN=nld:kortschildkevers,eng:rove beetles}
           Acidota Stephens, 1829 [genus]
           Aleochara [genus]
           Aleocharinae [subfamily]
           Anotylus [genus]
             Anotylus nitidulus [species]
-            Anotylus rugosus [species]
+            Anotylus rugosus [species] {VERN=nld:kartelhalskortschildkever}
           Astenus [genus]
             Astenus immaculatus [species]
           Bibloplectus [genus]
@@ -750,11 +750,11 @@ Animalia [kingdom]
             Carpelimus foveolatus [species]
             Carpelimus gracilis [species]
             Carpelimus halophilus [species]
-            Carpelimus pusillus [species]
+            Carpelimus pusillus [species] {VERN=nld:broeibakkever}
             Carpelimus schneideri [species]
             Carpelimus subtilis [species]
           Creophilus [genus]
-            Creophilus maxillosus [species]
+            Creophilus maxillosus [species] {VERN=nld:grauwe aaskortschildkever,eng:hairy rove beetle}
           Drusilla [genus]
             Drusilla canaliculata [species]
           Erichsonius [genus]
@@ -787,7 +787,7 @@ Animalia [kingdom]
           Oxytelus [genus]
             Oxytelus sculptus [species]
           Paederus [genus]
-            Paederus riparius [species]
+            Paederus riparius [species] {VERN=nld:gewone oeverkortschildkever}
           Philonthus [genus]
             Philonthus punctus [species]
           Pselaphaulax [genus]
@@ -816,29 +816,29 @@ Animalia [kingdom]
           Xantholinus [genus]
           Xylodromus [genus]
             Xylodromus concinnus [species]
-      Diptera [order] {VERN=nld:tweevleugeligen}
-        Bibionidae [family]
+      Diptera [order] {VERN=nld:tweevleugeligen,nld:vliegen en muggen,eng:flies}
+        Bibionidae [family] {VERN=nld:zwarte vliegen,eng:march flies and lovebugs}
         Brachycera [suborder]
         Calliphoridae [family]
           Protophormia [genus]
-            Protophormia terraenovae [species]
+            Protophormia terraenovae [species] {VERN=nld:blauwe keizervlieg,eng:northern blowfly}
         Cyclorrapha [family]
           Cyclorrhapha [unranked]
             =Muscomorpha [unranked]
         Nematocera [genus]
-        Sepsidae [family]
+        Sepsidae [family] {VERN=nld:wappervliegen,eng:black scavenger flies}
       Hemiptera [order]
         Cicadellidae [family]
-        Heteroptera [suborder]
-        Psyllidae [family]
-      Hymenoptera [order]
+        Heteroptera [suborder] {VERN=nld:wantsen,eng:(typical) bugs}
+        Psyllidae [family] {VERN=nld:bladvlooien,eng:jumping plant lice}
+      Hymenoptera [order] {VERN=nld:vliesvleugeligen}
         Apidae [family]
           Apis [genus]
-            Apis mellifica [species]
+            Apis mellifica [species] {VERN=nld:honingbij,eng:western honey bee}
               =Apis mellifera [species]
         Apocrita [suborder]
-        Formicidae [family]
-      Lepidoptera [order]
+        Formicidae [family] {VERN=nld:mieren,eng:ants}
+      Lepidoptera [order] {VERN=nld:vlinders,eng:lepidopterans}
         Coleophoridae [family]
           Coleophora [genus]
       Mallophaga [order]
@@ -850,7 +850,7 @@ Animalia [kingdom]
             Bovicola caprae [species]
               =Damalinia caprae [species]
           Damalinia Mjoberg, 1910 [genus]
-            Damalinia ovis [species]
+            Damalinia ovis [species] {VERN=nld:schapeluis}
               =Bovicola ovis [species]
       Phthiraptera [order]
         Haematopinidae [family]
@@ -860,931 +860,931 @@ Animalia [kingdom]
           Linognathus [genus]
           Solenopotes [genus]
             Solenopotes capillatus [species]
-      Psocoptera [order]
-      Siphonaptera [order]
+      Psocoptera [order] {VERN=nld:stofluizen,eng:booklice}
+      Siphonaptera [order] {VERN=nld:vlooien,eng:fleas}
         Pulicidae [family]
           Ctenocephalides [genus]
-            Ctenocephalides canis [species]
-            Ctenocephalides felis [species]
+            Ctenocephalides canis [species] {VERN=nld:hondenvlo,eng:dog flea}
+            Ctenocephalides felis [species] {VERN=nld:kattenvlo,eng:cat flea}
           Pulex [genus]
-            Pulex irritans [species]
-      Trichoptera [order]
+            Pulex irritans [species] {VERN=nld:mensenvlo,eng:human flea}
+      Trichoptera [order] {VERN=nld:schietmotten,eng:caddisflies}
         Limnephilidae [family]
           Enoicyla [genus]
             Enoicyla pusilla [species]
     Malacostraca [class]
-      Decapoda [order]
+      Decapoda [order] {VERN=nld:kreeften,nld:krabben en garnalen}
         Brachyura [infraorder]
         Cancridae [family]
           Cancer [genus]
-            Cancer pagurus [species]
+            Cancer pagurus [species] {VERN=nld:noordzeekrab,eng:brown crab}
         Homaridae [family]
           Homarus [genus]
-            Homarus gammarus [species] {VERN=nld:europese zeekreeft}
+            Homarus gammarus [species] {VERN=nld:europese zeekreeft,nld:noordzeekreeft,eng:European lobster}
         Paguridae [family]
           Eupagurus [genus]
-            Eupagurus bernhardus [species] {VERN=nld:heremietkreeft}
+            Eupagurus bernhardus [species] {VERN=nld:heremietkreeft,nld:gewone heremietkreeft,eng:common hermit crab}
               =Pagurus bernhardus [species]
         Portunidae [family]
           Carcinus [genus]
-            Carcinus maenas [species]
-      Isopoda [order]
+            Carcinus maenas [species] {VERN=nld:strandkrab,eng:shore crab}
+      Isopoda [order] {VERN=nld:pissebedden,eng:Isopods}
         Oniscidae [family]
         Porcellionidae [family]
           Porcellio [genus]
-            Porcellio scaber [species]
-    Ostracoda [class]
-  Bacillariophyceae [class]
+            Porcellio scaber [species] {VERN=nld:ruwe pissebed,eng:common rough woodlouse}
+    Ostracoda [class] {VERN=nld:mosselkreeftjes,eng:seed shrimp}
+  Bacillariophyceae [class] {VERN=nld:Diatomeeën,eng:Diatom}
     =Diatomeae [unranked]
-  Chordata [phylum]
+  Chordata [phylum] {VERN=nld:gewervelde dieren}
     Actinopterygii [class]
       Acipenseriformes [order]
         Acipenseridae [family]
-          Acipenser [genus]
+          Acipenser [genus] {VERN=nld:steurachtige}
             Acipenser oxyrinchus [species]
-            Acipenser sturio [species]
+            Acipenser sturio [species] {VERN=nld:steur,eng:sturgeon}
       Clupeiformes [order]
-        Clupeidae [family]
+        Clupeidae [family] {VERN=nld:haringen,eng:herrings}
           Alosa [genus]
-            Alosa alosa [species]
-            Alosa fallax [species]
+            Alosa alosa [species] {VERN=nld:elft,eng:allis shad}
+            Alosa fallax [species] {VERN=nld:fint,eng:twaite shad}
           Clupea [genus]
-            Clupea harengus [species]
+            Clupea harengus [species] {VERN=nld:haring,eng:atlantic herring}
           Engraulis [genus]
-            Engraulis encrasicolus [species]
+            Engraulis encrasicolus [species] {VERN=nld:ansjovis,eng:anchovy}
           Sardina [genus]
-            Sardina pilchardus [species]
+            Sardina pilchardus [species] {VERN=nld:sardien,eng:pilchard}
           Sprattus [genus]
-            Sprattus sprattus [species] {VERN=eng:brisling}
+            Sprattus sprattus [species] {VERN=eng:brisling,nld:sprot,eng:European sprat}
       Cypriniformes [order]
-        Cyprinidae [family]
+        Cyprinidae [family] {VERN=nld:karpers,eng:cyprinids}
           Leuciscus [genus]
-            Leuciscus cephalus [species]
+            Leuciscus cephalus [species] {VERN=nld:kopvoorn,eng:chub}
               =Squalius cephalus [species]
-            Leuciscus idus [species]
-            Leuciscus leuciscus [species]
+            Leuciscus idus [species] {VERN=nld:winde,eng:orfe}
+            Leuciscus leuciscus [species] {VERN=nld:serpeling,eng:dace}
           Abramis [genus]
-            Abramis bjoerkna [species]
+            Abramis bjoerkna [species] {VERN=nld:kolblei,eng:white bream}
               =Blicca bjoerkna [species]
-            Abramis brama [species]
+            Abramis brama [species] {VERN=nld:brasem,eng:bream}
           Alburnus [genus]
-            Alburnus alburnus [species]
+            Alburnus alburnus [species] {VERN=nld:alver,eng:bleak}
           Aspius [genus]
-            Aspius aspius [species]
+            Aspius aspius [species] {VERN=nld:roofblei,eng:asp}
           Barbus [genus]
-            Barbus barbus [species]
+            Barbus barbus [species] {VERN=nld:barbeel,eng:barbel}
           Carassius [genus]
-            Carassius carassius [species]
+            Carassius carassius [species] {VERN=nld:kroeskarper,eng:crucian carp}
           Chondrostoma [genus]
-            Chondrostoma nasus [species]
+            Chondrostoma nasus [species] {VERN=nld:sneep,eng:nase}
           Cobitis [genus]
-            Cobitis taenia [species]
+            Cobitis taenia [species] {VERN=nld:kleine modderkruiper,eng:spined loach}
           Ctenopharyngodon [genus]
-            Ctenopharyngodon idella [species]
+            Ctenopharyngodon idella [species] {VERN=nld:graskarper,eng:grass carp}
           Cyprinus [genus]
-            Cyprinus carpio [species]
+            Cyprinus carpio [species] {VERN=nld:karper,eng:carp}
           Gobio Cuvier, 1816 [genus]
-            Gobio gobio [species]
+            Gobio gobio [species] {VERN=nld:riviergrondel,eng:gudgeon}
           Leucaspius [genus]
-            Leucaspius delineatus [species]
+            Leucaspius delineatus [species] {VERN=nld:vetje,eng:belica}
           Phoxinus [genus]
-            Phoxinus phoxinus [species]
+            Phoxinus phoxinus [species] {VERN=nld:elrits,eng:minnow}
           Rhodeus [genus]
-            Rhodeus sericeus [species]
+            Rhodeus sericeus [species] {VERN=nld:bittervoorn,eng:bitterling}
               =Rhodeus amarus [species]
-          Rutilus [genus]
-            Rutilus erythrophthalmus [species] {VERN=nld:rietvoorn}
+          Rutilus [genus] {VERN=nld:voorn,eng:roach}
+            Rutilus erythrophthalmus [species] {VERN=nld:rietvoorn,nld:ruisvoorn,eng:rudd}
               =Scardinius erythrophthalmus [species]
-            Rutilus rutilus [species]
+            Rutilus rutilus [species] {VERN=nld:blankvoorn,eng:roach}
           Tinca [genus]
-            Tinca tinca [species]
+            Tinca tinca [species] {VERN=nld:zeelt,eng:tench}
         Cobitididae [family]
           Noemacheilus [genus]
-            Noemacheilus barbatulus [species]
+            Noemacheilus barbatulus [species] {VERN=nld:bermpje,eng:stone loach}
               =Barbatula barbatula [species]
       Pleuronectiformes [order]
-        Pleuronectidae [family]
+        Pleuronectidae [family] {VERN=nld:schollen,eng:pleuronectidae}
           Pleuronectes [genus]
-            Pleuronectes platessa [species]
+            Pleuronectes platessa [species] {VERN=nld:schol,eng:plaice}
           Hippoglossus [genus]
-            Hippoglossus hippoglossus [species]
+            Hippoglossus hippoglossus [species] {VERN=nld:heilbot,eng:halibut}
           Limanda [genus]
-            Limanda limanda [species]
+            Limanda limanda [species] {VERN=nld:schar,eng:dab}
           Platichthys [genus]
-            Platichthys flesus [species]
-        Bothidae [family]
+            Platichthys flesus [species] {VERN=nld:bot,eng:flounder}
+        Bothidae [family] {VERN=nld:tarbotten,eng:Lefteye flounders}
           Scophthalmus [genus]
-            Scophthalmus maximus [species]
-            Scophthalmus rhombus [species]
-        Soleidae [family]
+            Scophthalmus maximus [species] {VERN=nld:tarbot,eng:turbot}
+            Scophthalmus rhombus [species] {VERN=nld:griet,eng:brill}
+        Soleidae [family] {VERN=nld:tongen,eng:soles}
           Buglossidium [genus]
-            Buglossidium luteum [species]
+            Buglossidium luteum [species] {VERN=nld:dwergtong,eng:solenette}
           Solea [genus]
-            Solea lascaris [species]
-            Solea solea [species]
+            Solea lascaris [species] {VERN=nld:franse tong,eng:sand sole}
+            Solea solea [species] {VERN=nld:tong,eng:sole}
       Salmoniformes [order]
-        Salmonidae [family]
+        Salmonidae [family] {VERN=nld:zalmen,eng:salmonidae}
           Salmo [genus]
-            Salmo gairdneri [species]
+            Salmo gairdneri [species] {VERN=nld:regenboogforel,eng:rainbow trout}
               =Oncorhynchus mykiss [species]
-            Salmo salar [species]
-            Salmo trutta [species] {VERN=nld:beekforel,nld:zeeforel}
-          Coregonus [genus]
-            Coregonus lavaretus [species]
-            Coregonus oxyrinchus [species]
+            Salmo salar [species] {VERN=nld:zalm,eng:atlantic salmon}
+            Salmo trutta [species] {VERN=nld:beekforel,nld:zeeforel,nld:forel,eng:trout}
+          Coregonus [genus] {VERN=nld:houtingen,eng:whitefishes}
+            Coregonus lavaretus [species] {VERN=nld:grote marene,eng:common whitefish}
+            Coregonus oxyrinchus [species] {VERN=nld:houting,eng:houting}
           Thymallus [genus]
-            Thymallus thymallus [species]
+            Thymallus thymallus [species] {VERN=nld:vlagzalm,eng:grayling}
         Esocidae [family]
           Esox [genus]
-            Esox lucius [species]
+            Esox lucius [species] {VERN=nld:snoek,eng:pike}
         Osmeridae [family]
           Osmerus [genus]
-            Osmerus eperlanus [species]
+            Osmerus eperlanus [species] {VERN=nld:spiering,eng:smelt}
       Scorpaeniformes [order]
-        Triglidae [family]
+        Triglidae [family] {VERN=nld:ponen,eng:sea robins}
           Eutrigla [genus]
-            Eutrigla gurnardus [species]
+            Eutrigla gurnardus [species] {VERN=nld:grauwe poon,eng:grey gurnard}
           Trigla [genus]
           Aspitrigla [genus]
-            Aspitrigla cuculus [species]
+            Aspitrigla cuculus [species] {VERN=nld:engelse poon,eng:red gurnard}
           Chelidonichthys [genus]
-            Chelidonichthys lucerna [species]
+            Chelidonichthys lucerna [species] {VERN=nld:rode poon,eng:tub gurnard}
           Trigloporus [genus]
-            Trigloporus lastoviza [species]
+            Trigloporus lastoviza [species] {VERN=nld:gestreepte poon,eng:streaked gurnard}
         Agonidae [family]
           Agonus [genus]
-            Agonus cataphractus [species] {VERN=eng:pogge}
+            Agonus cataphractus [species] {VERN=eng:pogge,nld:harnasmannetje,eng:armoured bullhead}
         Cottidae [family]
           Cottus [genus]
-            Cottus gobio [species]
+            Cottus gobio [species] {VERN=nld:rivierdonderpad,eng:bullhead}
           Enophrys [genus]
-            Enophrys bubalis [species]
+            Enophrys bubalis [species] {VERN=nld:groene zeedonderpad,eng:long spined bullhead}
           Myoxocephalus [genus]
-            Myoxocephalus scorpius [species]
+            Myoxocephalus scorpius [species] {VERN=nld:zeedonderpad,eng:short spined bullhead}
         Cyclopteridae [family]
           Cyclopterus [genus]
-            Cyclopterus lumpus [species]
-    Amphibia [class]
-      Anura [order]
-        Bufonidae [family]
-          Bufo [genus]
-            Bufo bufo [species]
-            Bufo calamita [species] {VERN=nld:duinpad}
-            Bufo viridis [species]
+            Cyclopterus lumpus [species] {VERN=nld:snotolf,eng:lumpsucker}
+    Amphibia [class] {VERN=nld:amfibieën,eng:amphibians}
+      Anura [order] {VERN=nld:kikkers en padden,eng:frogs and toads}
+        Bufonidae [family] {VERN=nld:echte padden,eng:true toads}
+          Bufo [genus] {VERN=nld:pad,eng:toad}
+            Bufo bufo [species] {VERN=nld:gewone pad,eng:common toad}
+            Bufo calamita [species] {VERN=nld:duinpad,nld:rugstreeppad,eng:natterjack toad}
+            Bufo viridis [species] {VERN=nld:groene pad,eng:european green toad}
         Discoglossidae [family]
           Bombina [genus]
-            Bombina bombina [species]
-            Bombina variegata [species]
+            Bombina bombina [species] {VERN=nld:roodbuikvuurpad,eng:fire bellied toad}
+            Bombina variegata [species] {VERN=nld:geelbuikvuurpad,eng:yellow bellied toad}
         Hylidae [family]
           Hyla [genus]
-            Hyla arborea [species] {VERN=nld:boomkikvors}
+            Hyla arborea [species] {VERN=nld:boomkikvors,nld:boomkikker,eng:tree frog}
         Pelobatidae [family]
           Pelobates [genus]
-            Pelobates fuscus [species]
-        Ranidae [family] {VERN=nld:kikvorsen}
+            Pelobates fuscus [species] {VERN=nld:knoflookpad,eng:common spadefoot}
+        Ranidae [family] {VERN=nld:kikvorsen,nld:echte kikkers,eng:frogs}
           Pelophylax [genus]
-          Rana [genus]
-            Rana arvalis [species]
-            Rana dalmatina [species]
-            Rana esculenta [species] {VERN=nld:groene kikvors}
-            Rana ridibunda [species]
-            Rana temporaria [species] {VERN=nld:bruine kikvors,eng:grass frog}
+          Rana [genus] {VERN=nld:kikker,eng:frog}
+            Rana arvalis [species] {VERN=nld:heikikvors,eng:moor frog}
+            Rana dalmatina [species] {VERN=nld:springkikvors,eng:agile frog}
+            Rana esculenta [species] {VERN=nld:groene kikvors,nld:bastaardkikker,eng:green frog}
+            Rana ridibunda [species] {VERN=nld:meerkikvors,eng:lake frog}
+            Rana temporaria [species] {VERN=nld:bruine kikvors,eng:grass frog,nld:bruine kikker,eng:common frog}
       Caudata [order]
-        Salamandridae [family]
+        Salamandridae [family] {VERN=nld:salamanders,eng:salamanders}
           Salamandra [genus]
-            Salamandra salamandra [species] {VERN=nld:gevlekte landsalamander}
+            Salamandra salamandra [species] {VERN=nld:gevlekte landsalamander,nld:vuursalamander,eng:spotted salamander}
           Triturus [genus]
-            Triturus alpestris [species]
+            Triturus alpestris [species] {VERN=nld:alpenwatersalamander,eng:alpine newt}
               =Mesotriton alpestris [species]
-            Triturus cristatus [species] {VERN=nld:grote watersalamander}
-            Triturus helveticus [species] {VERN=nld:draadsalamander,nld:zwemvoetsalamander}
+            Triturus cristatus [species] {VERN=nld:grote watersalamander,nld:kamsalamander,eng:warty newt}
+            Triturus helveticus [species] {VERN=nld:draadsalamander,nld:zwemvoetsalamander,nld:vinpootsalamander,eng:palmate newt}
               =Lissotriton helveticus [species]
-            Triturus vulgaris [species] {VERN=nld:gewone salamander}
+            Triturus vulgaris [species] {VERN=nld:gewone salamander,nld:kleine watersalamander,eng:smooth newt}
               =Lissotriton vulgaris [species]
-    Aves [class]
+    Aves [class] {VERN=nld:vogels,eng:birds}
       Accipitriformes [order]
-        Accipitridae [family]
+        Accipitridae [family] {VERN=nld:sperwers,eng:hawks and eagles}
           Aquila [genus]
-            Aquila chrysaetos [species]
-          Circus [genus]
-            Circus cyaneus [species]
-            Circus aeruginosus [species]
+            Aquila chrysaetos [species] {VERN=nld:steenarend,eng:golden eagle}
+          Circus [genus] {VERN=nld:kiekendief,eng:harrier}
+            Circus cyaneus [species] {VERN=nld:blauwe kiekendief,eng:hen harrier}
+            Circus aeruginosus [species] {VERN=nld:bruine kiekendief,eng:marsh harrier}
           Accipiter [genus]
-            Accipiter gentilis [species]
-            Accipiter nisus [species]
+            Accipiter gentilis [species] {VERN=nld:havik,eng:goshawk}
+            Accipiter nisus [species] {VERN=nld:sperwer,eng:sparrow hawk}
           Aegypius [genus]
-            Aegypius monachus [species]
-          Buteo [genus]
-            Buteo buteo [species]
-            Buteo lagopus [species]
+            Aegypius monachus [species] {VERN=nld:monniksgier,eng:black vulture}
+          Buteo [genus] {VERN=nld:buizerds,eng:buzzards}
+            Buteo buteo [species] {VERN=nld:buizerd,eng:buzzard}
+            Buteo lagopus [species] {VERN=nld:ruigpootbuizerd,eng:rough-legged buzzard}
           Gyps [genus]
-            Gyps fulvus [species]
+            Gyps fulvus [species] {VERN=nld:vale gier,eng:griffon vulture}
           Haliaeetus [genus]
-            Haliaeetus albicilla [species]
-          Milvus [genus]
+            Haliaeetus albicilla [species] {VERN=nld:zeearend,eng:white tailed eagle}
+          Milvus [genus] {VERN=nld:wouw,eng:kite}
       Anseriformes [order]
-        Anatidae [family] {VERN=nld:eendachtigen}
-          Anas [genus]
-            Anas acuta [species]
-            Anas clypeata [species]
-            Anas crecca [species]
-            Anas penelope [species] {VERN=nld:smient}
+        Anatidae [family] {VERN=nld:eendachtigen,eng:ducks and geese}
+          Anas [genus] {VERN=nld:echte zwemeenden}
+            Anas acuta [species] {VERN=nld:pijlstaart,eng:pintail}
+            Anas clypeata [species] {VERN=nld:slobeend,eng:shoveler}
+            Anas crecca [species] {VERN=nld:wintertaling,eng:teal}
+            Anas penelope [species] {VERN=nld:smient,eng:wigeon}
               =Mareca penelope [species]
-            Anas platyrhynchos domesticus [subspecies] {VERN=nld:eend,nld:soepeend}
-            Anas platyrhynchos [species]
-            Anas querquedula [species]
-            Anas strepera [species]
-          Anatinae [subfamily]
-          Anserinae [subfamily]
-          Anser [genus]
-            Anser albifrons [species]
-            Anser anser domesticus [subspecies] {VERN=nld:gans,nld:soepgans}
-            Anser anser [species]
-            Anser brachyrhynchus [species]
-            Anser fabalis [species] {VERN=nld:rietgans}
-          Aythya [genus]
-            Aythya ferina [species]
-            Aythya fuligula [species]
-            Aythya marila [species] {VERN=nld:toppereend}
-          Branta [genus]
-            Branta bernicla [species]
-            Branta leucopsis [species]
+            Anas platyrhynchos domesticus [subspecies] {VERN=nld:eend,nld:soepeend,nld:tamme eend,eng:domestic mallard}
+            Anas platyrhynchos [species] {VERN=nld:wilde eend,eng:mallard}
+            Anas querquedula [species] {VERN=nld:zomertaling,eng:garganey}
+            Anas strepera [species] {VERN=nld:krakeend,eng:gadwall}
+          Anatinae [subfamily] {VERN=nld:gondeleenden,nld:duikeenden,eng:dabbling ducks}
+          Anserinae [subfamily] {VERN=nld:gansachtigen,eng:geese}
+          Anser [genus] {VERN=nld:gans,eng:goose}
+            Anser albifrons [species] {VERN=nld:kolgans,eng:white fronted goose}
+            Anser anser domesticus [subspecies] {VERN=nld:gans,nld:soepgans,nld:huisgans,eng:domestic goose}
+            Anser anser [species] {VERN=nld:grauwe gans,eng:greylag goose}
+            Anser brachyrhynchus [species] {VERN=nld:kleine rietgans,eng:pink footed goose}
+            Anser fabalis [species] {VERN=nld:rietgans,nld:taigarietgans,eng:bean goose}
+          Aythya [genus] {VERN=nld:duikeend,eng:aythya sp}
+            Aythya ferina [species] {VERN=nld:tafeleend,eng:pochard}
+            Aythya fuligula [species] {VERN=nld:kuifeend,eng:tufted duck}
+            Aythya marila [species] {VERN=nld:toppereend,nld:topper,eng:scaup}
+          Branta [genus] {VERN=nld:brandgans,nld:rotgans,eng:black geese}
+            Branta bernicla [species] {VERN=nld:rotgans,eng:brent goose}
+            Branta leucopsis [species] {VERN=nld:brandgans,eng:barnacle goose}
           Bucephala [genus]
-            Bucephala clangula [species]
+            Bucephala clangula [species] {VERN=nld:brilduiker,eng:goldeneye}
           Clangula [genus]
-            Clangula hyemalis [species]
-          Cygnus [genus]
-            Cygnus bewickii [species]
-            Cygnus cygnus [species]
-            Cygnus olor domesticus [subspecies]
-            Cygnus olor [species]
-          Melanitta [genus]
-            Melanitta fusca [species]
-            Melanitta nigra [species]
-          Mergus [genus]
-            Mergus albellus [species]
+            Clangula hyemalis [species] {VERN=nld:ijseend,eng:long tailed duck}
+          Cygnus [genus] {VERN=nld:zwaan,eng:swan}
+            Cygnus bewickii [species] {VERN=nld:kleine zwaan,eng:bewicks swan}
+            Cygnus cygnus [species] {VERN=nld:wilde zwaan,eng:whooper swan}
+            Cygnus olor domesticus [subspecies] {VERN=nld:tamme zwaan,eng:domestic mute swan}
+            Cygnus olor [species] {VERN=nld:knobbelzwaan,eng:mute swan}
+          Melanitta [genus] {VERN=nld:zeeëend,eng:scoter}
+            Melanitta fusca [species] {VERN=nld:grote zee-eend,eng:velvet scoter}
+            Melanitta nigra [species] {VERN=nld:zwarte zee-eend,eng:common scoter}
+          Mergus [genus] {VERN=nld:zaagbekken}
+            Mergus albellus [species] {VERN=nld:nonnetje,eng:smew}
               =Mergellus albellus [species]
-            Mergus merganser [species]
-            Mergus serrator [species]
+            Mergus merganser [species] {VERN=nld:grote zaagbek,eng:goosander}
+            Mergus serrator [species] {VERN=nld:middelste zaagbek,eng:red breasted merganser}
           Netta [genus]
-            Netta rufina [species]
+            Netta rufina [species] {VERN=nld:krooneend,eng:red crested pochard}
           Somateria [genus]
-            Somateria mollissima [species]
+            Somateria mollissima [species] {VERN=nld:eidereend,eng:eider}
           Tadorna [genus]
-            Tadorna tadorna [species]
+            Tadorna tadorna [species] {VERN=nld:bergeend,eng:shelduck}
       Apodiformes [order]
         Apodidae [family]
-          Apus [genus]
-            Apus apus [species]
+          Apus [genus] {VERN=nld:gierzwaluwen,eng:swifts}
+            Apus apus [species] {VERN=nld:gierzwaluw,eng:swift}
       Charadriiformes [order]
         Alcidae [family]
           Alca [genus]
-            Alca torda [species]
+            Alca torda [species] {VERN=nld:alk,eng:razorbill}
           Pinguinus [genus]
-            Pinguinus impennis [species]
+            Pinguinus impennis [species] {VERN=nld:reuzenalk,eng:great auk}
           Uria [genus]
-            Uria aalge [species]
-        Charadriidae [family]
-          Charadrius [genus]
-            Charadrius dubius [species]
-            Charadrius hiaticula [species]
-          Pluvialis [genus]
-            Pluvialis apricarius [species]
+            Uria aalge [species] {VERN=nld:zeekoet,eng:guillemot}
+        Charadriidae [family] {VERN=nld:plevieren,eng:plovers}
+          Charadrius [genus] {VERN=nld:plevier,eng:plover}
+            Charadrius dubius [species] {VERN=nld:kleine plevier,eng:little ringed plover}
+            Charadrius hiaticula [species] {VERN=nld:bontbekplevier,eng:ringed plover}
+          Pluvialis [genus] {VERN=nld:plevier,eng:plover}
+            Pluvialis apricarius [species] {VERN=nld:goudplevier,eng:golden plover}
               =Pluvialis apricaria [species]
-            Pluvialis squatarola [species]
+            Pluvialis squatarola [species] {VERN=nld:zilverplevier,eng:grey plover}
           Vanellus [genus]
-            Vanellus vanellus [species]
+            Vanellus vanellus [species] {VERN=nld:kievit,eng:lapwing}
         Haematopodidae [family]
           Haematopus [genus]
-            Haematopus ostralegus [species]
+            Haematopus ostralegus [species] {VERN=nld:scholekster,eng:oystercatcher}
         Laridae [family]
           Chlidonias [genus]
-            Chlidonias niger [species]
-          Larus [genus]
-            Larus argentatus [species]
-            Larus canus [species]
-            Larus fuscus Linnaeus, 1758 [species]
-            Larus hyperboreus [species]
-            Larus marinus [species]
-            Larus ridibundus [species]
+            Chlidonias niger [species] {VERN=nld:zwarte stern,eng:Black tern}
+          Larus [genus] {VERN=nld:meeuw,eng:gull}
+            Larus argentatus [species] {VERN=nld:zilvermeeuw,eng:herring gull}
+            Larus canus [species] {VERN=nld:stormmeeuw,eng:common gull}
+            Larus fuscus Linnaeus, 1758 [species] {VERN=nld:kleine mantelmeeuw,eng:lesser blackbacked gull}
+            Larus hyperboreus [species] {VERN=nld:grote burgemeester,eng:glaucous gull}
+            Larus marinus [species] {VERN=nld:grote mantelmeeuw,eng:great blackbacked gull}
+            Larus ridibundus [species] {VERN=nld:kokmeeuw,eng:black-headed gull}
               =Chroicocephalus ridibundus [species]
           Rissa [genus]
-            Rissa tridactyla [species]
-          Sterna [genus]
-            Sterna paradisaea [species]
-            Sterna hirundo [species]
+            Rissa tridactyla [species] {VERN=nld:drieteenmeeuw,eng:kittiwake}
+          Sterna [genus] {VERN=nld:stern,eng:tern}
+            Sterna paradisaea [species] {VERN=nld:noordse stern,eng:arctic tern}
+            Sterna hirundo [species] {VERN=nld:visdief,eng:common tern}
           Thalasseus [genus]
-            Thalasseus sandvicensis [species]
-        Recurvirostridae [family]
+            Thalasseus sandvicensis [species] {VERN=nld:grote stern}
+        Recurvirostridae [family] {VERN=nld:kluten,eng:recurvirostridae}
           Recurvirostra [genus]
-            Recurvirostra avosetta [species]
-        Scolopacidae [family] {VERN=nld:snipachtigen}
-          Calidris [genus] {VERN=eng:stint}
-            Calidris alpina [species]
-            Calidris canutus [species] {VERN=nld:kanoetstrandloper}
-            Calidris minuta [species]
-            Calidris temminckii [species]
+            Recurvirostra avosetta [species] {VERN=nld:kluut,eng:avocet}
+        Scolopacidae [family] {VERN=nld:snipachtigen,nld:strandlopers,eng:scolopacidae}
+          Calidris [genus] {VERN=eng:stint,nld:strandloper,eng:sandpiper}
+            Calidris alpina [species] {VERN=nld:bonte strandloper,eng:dunlin}
+            Calidris canutus [species] {VERN=nld:kanoetstrandloper,nld:kanoet,eng:knot}
+            Calidris minuta [species] {VERN=nld:kleine strandloper,eng:little stint}
+            Calidris temminckii [species] {VERN=nld:Temmincks strandloper,eng:Temminck's stint}
           Gallinago [genus]
-            Gallinago gallinago [species]
-            Gallinago media [species]
-          Limosa [genus]
-            Limosa lapponica [species]
-            Limosa limosa [species]
+            Gallinago gallinago [species] {VERN=nld:watersnip,eng:snipe}
+            Gallinago media [species] {VERN=nld:poelsnip,eng:great snipe}
+          Limosa [genus] {VERN=nld:grutto,nld:rosse grutto,eng:godwit}
+            Limosa lapponica [species] {VERN=nld:rosse grutto,eng:bar tailed godwit}
+            Limosa limosa [species] {VERN=nld:grutto,eng:black tailed godwit}
           Lymnocryptes [genus]
-            Lymnocryptes minimus [species]
-          Numenius [genus]
-            Numenius arquata [species]
-            Numenius phaeopus [species]
+            Lymnocryptes minimus [species] {VERN=nld:bokje,eng:jack snipe}
+          Numenius [genus] {VERN=nld:wulpen,eng:curlews}
+            Numenius arquata [species] {VERN=nld:wulp,eng:curlew}
+            Numenius phaeopus [species] {VERN=nld:regenwulp,eng:whimbrel}
           Philomachus [genus]
-            Philomachus pugnax [species]
+            Philomachus pugnax [species] {VERN=nld:kemphaan,eng:ruff}
               =Calidris pugnax [species]
           Scolopax [genus]
-            Scolopax rusticola [species]
-          Tringa [genus]
-            Tringa totanus [species]
+            Scolopax rusticola [species] {VERN=nld:houtsnip,eng:woodcock}
+          Tringa [genus] {VERN=nld:ruiterachtige,eng:sandpiper}
+            Tringa totanus [species] {VERN=nld:tureluur,eng:redshank}
         Stercorariidae [family]
           Stercorarius [genus]
-            Stercorarius parasiticus [species]
-            Stercorarius pomarinus [species]
+            Stercorarius parasiticus [species] {VERN=nld:kleine jager,eng:arctic skua}
+            Stercorarius pomarinus [species] {VERN=nld:middelste jager,eng:pomarine jaeger}
               =Arvicolinae [unranked]
-            Stercorarius skua [species]
+            Stercorarius skua [species] {VERN=nld:grote jager,eng:great skua}
       Ciconiiformes [order]
         Ciconiidae [family]
           Ciconia [genus]
-            Ciconia ciconia [species]
-            Ciconia nigra [species]
+            Ciconia ciconia [species] {VERN=nld:ooievaar,eng:white stork}
+            Ciconia nigra [species] {VERN=nld:zwarte ooievaar,eng:black stork}
         Threskiornithidae [family]
           Platalea [genus]
-            Platalea leucorodia [species]
+            Platalea leucorodia [species] {VERN=nld:lepelaar,eng:spoonbill}
       Columbiformes [order]
         Columbidae [family]
-          Columba [genus] {VERN=eng:dove}
-            Columba livia [species] {VERN=nld:duif,nld:huisduif}
-            Columba oenas [species]
-            Columba palumbus [species]
+          Columba [genus] {VERN=eng:dove,nld:duif,eng:pigeon}
+            Columba livia [species] {VERN=nld:duif,nld:huisduif,nld:stadsduif,eng:domestic pigeon}
+            Columba oenas [species] {VERN=nld:holenduif,eng:stock dove}
+            Columba palumbus [species] {VERN=nld:houtduif,eng:woodpigeon}
           Streptopelia [genus]
-            Streptopelia turtur [species] {VERN=nld:tortelduif}
+            Streptopelia turtur [species] {VERN=nld:tortelduif,nld:zomertortel,eng:turtle dove}
       Falconiformes [order]
         Falconidae [family]
-          Falco [genus]
-            Falco peregrinus [species]
-            Falco subbuteo [species]
-            Falco tinnunculus [species]
-      Galliformes [order]
-        Phasianidae [family]
+          Falco [genus] {VERN=nld:valk,eng:falcon}
+            Falco peregrinus [species] {VERN=nld:slechtvalk,eng:peregrine}
+            Falco subbuteo [species] {VERN=nld:boomvalk,eng:hobby}
+            Falco tinnunculus [species] {VERN=nld:torenvalk,eng:kestrel}
+      Galliformes [order] {VERN=nld:hoenderachtigen,eng:fowllike birds}
+        Phasianidae [family] {VERN=nld:hoenders}
           Coturnix [genus]
-            Coturnix coturnix [species]
+            Coturnix coturnix [species] {VERN=nld:kwartel,eng:quail}
           Fulica [genus]
-            Fulica atra [species]
+            Fulica atra [species] {VERN=nld:meerkoet,eng:coot}
           Gallinula [genus]
-            Gallinula chloropus [species]
+            Gallinula chloropus [species] {VERN=nld:waterhoen,eng:moorhen}
           Gallus Brisson, 1760 [genus]
-            Gallus gallus domesticus [subspecies] {VERN=nld:kip}
+            Gallus gallus domesticus [subspecies] {VERN=nld:kip,nld:huishoen,eng:domestic fowl}
           Lyrurus [genus]
-            Lyrurus tetrix [species]
+            Lyrurus tetrix [species] {VERN=nld:korhoen,eng:black grouse}
               =Tetrao tetrix [species]
           Meleagris [genus]
-            Meleagris gallopavo [species]
+            Meleagris gallopavo [species] {VERN=nld:kalkoen,eng:turkey}
           Pavo [genus]
-            Pavo cristata [species]
+            Pavo cristata [species] {VERN=nld:pauw,eng:peafowl}
               =Pavo cristatus [species]
           Perdix [genus]
-            Perdix perdix [species]
+            Perdix perdix [species] {VERN=nld:patrijs,eng:partridge}
           Phasianus [genus]
-            Phasianus colchicus [species]
+            Phasianus colchicus [species] {VERN=nld:fazant,eng:phaesant}
           Porzana [genus]
-            Porzana parva [species]
+            Porzana parva [species] {VERN=nld:klein waterhoen,eng:little crake}
       Gaviiformes [order]
         Gaviidae [family]
-          Gavia [genus]
-            Gavia arctica [species]
-            Gavia stellata [species]
+          Gavia [genus] {VERN=nld:duiker,eng:diver}
+            Gavia arctica [species] {VERN=nld:parelduiker,eng:black throated diver}
+            Gavia stellata [species] {VERN=nld:roodkeelduiker,eng:red throated diver}
       Gruiformes [order]
         Gruidae [family]
           Grus [genus]
-            Grus grus [species]
+            Grus grus [species] {VERN=nld:kraanvogel,eng:crane}
         Otididae [family]
           Otis [genus]
-            Otis tarda [species]
-        Rallidae [family] {VERN=nld:rallen en bleshoenders}
+            Otis tarda [species] {VERN=nld:grote trap,eng:great bustard}
+        Rallidae [family] {VERN=nld:rallen en bleshoenders,nld:rallen,eng:rails}
           Rallus [genus]
-            Rallus aquaticus [species]
-      Passeriformes [order]
+            Rallus aquaticus [species] {VERN=nld:waterral,eng:water rail}
+      Passeriformes [order] {VERN=nld:zangvogels,eng:passeriformes}
         Alaudidae [family]
           Alauda [genus]
-            Alauda arvensis [species]
-        Corvidae [family]
-          Corvus [genus]
-            Corvus corax [species]
-            Corvus cornix [species]
-            Corvus corone [species] {VERN=nld:bonte kraai}
-            Corvus frugilegus [species]
-            Corvus monedula [species]
+            Alauda arvensis [species] {VERN=nld:veldleeuwerik,eng:sand martin}
+        Corvidae [family] {VERN=nld:kraaien,eng:corvids}
+          Corvus [genus] {VERN=nld:kraaiachtige,eng:crows and ravens}
+            Corvus corax [species] {VERN=nld:raaf,eng:raven}
+            Corvus cornix [species] {VERN=nld:bonte kraai,eng:hooded crow}
+            Corvus corone [species] {VERN=nld:bonte kraai,nld:zwarte kraai,eng:carrion crow}
+            Corvus frugilegus [species] {VERN=nld:roek,eng:rook}
+            Corvus monedula [species] {VERN=nld:kauw,eng:jackdaw}
           Garrulus Brisson 1760 [genus]
-            Garrulus glandarius [species] {VERN=nld:vlaamse gaai}
+            Garrulus glandarius [species] {VERN=nld:vlaamse gaai,nld:gaai,eng:jay}
           Pica Brisson 1760 [genus]
-            Pica pica [species]
+            Pica pica [species] {VERN=nld:ekster,eng:magpie}
         Emberizidae [family]
-          Emberiza [genus]
-            Emberiza schoeniclus [species]
-        Fringillidae [family]
+          Emberiza [genus] {VERN=nld:gorzen,eng:buntings}
+            Emberiza schoeniclus [species] {VERN=nld:rietgors,eng:common reed bunting}
+        Fringillidae [family] {VERN=nld:vinken,eng:finches}
           Carduelis [genus]
-            Carduelis cannabina [species]
+            Carduelis cannabina [species] {VERN=nld:kneu,eng:linnet}
               =Linaria cannabina [species]
-            Carduelis carduelis [species]
+            Carduelis carduelis [species] {VERN=nld:putter,eng:goldfinch}
           Fringilla [genus]
-            Fringilla coelebs [species]
+            Fringilla coelebs [species] {VERN=nld:vink,eng:chaffinch}
           Pyrrhula [genus]
-            Pyrrhula pyrrhula [species]
+            Pyrrhula pyrrhula [species] {VERN=nld:goudvink,eng:bullfinch}
         Hirundinidae [family]
           Delichon [genus]
-            Delichon urbica [species]
+            Delichon urbica [species] {VERN=nld:huiszwaluw,eng:house martin}
               =Delichon urbicum [species]
         Motacillidae [family]
           Motacilla [genus]
-            Motacilla flava [species]
+            Motacilla flava [species] {VERN=nld:gele kwikstaart,eng:blue-headed wagtail}
         Muscicapidae [family]
-          Sylvia [genus]
-            Sylvia communis [species]
-        Paridae [family]
+          Sylvia [genus] {VERN=nld:grasmusachtige,eng:warblers}
+            Sylvia communis [species] {VERN=nld:grasmus,eng:whitethroat}
+        Paridae [family] {VERN=nld:mezen,eng:tits}
           Parus [genus]
-            Parus major [species]
+            Parus major [species] {VERN=nld:koolmees,eng:great tit}
         Passeridae [family]
-          Passer Brisson 1760 [genus]
-            Passer domesticus [species]
-            Passer montanus [species]
+          Passer Brisson 1760 [genus] {VERN=nld:mus,eng:sparrow}
+            Passer domesticus [species] {VERN=nld:huismus,eng:house sparrow}
+            Passer montanus [species] {VERN=nld:ringmus,eng:tree sparrow}
         Sturnidae [family]
           Sturnus [genus]
-            Sturnus vulgaris [species]
+            Sturnus vulgaris [species] {VERN=nld:spreeuw,eng:starling}
         Turdidae [family]
           Erithacus [genus]
-            Erithacus rubecula [species]
-          Turdus [genus]
-            Turdus iliacus [species]
-            Turdus merula [species]
-            Turdus philomelos [species]
-            Turdus pilaris [species]
-            Turdus viscivorus [species]
+            Erithacus rubecula [species] {VERN=nld:roodborst,eng:robin}
+          Turdus [genus] {VERN=nld:lijsterachtige,eng:thrush}
+            Turdus iliacus [species] {VERN=nld:koperwiek,eng:redwing}
+            Turdus merula [species] {VERN=nld:merel,eng:blackbird}
+            Turdus philomelos [species] {VERN=nld:zanglijster,eng:song thrush}
+            Turdus pilaris [species] {VERN=nld:kramsvogel,eng:fieldfare}
+            Turdus viscivorus [species] {VERN=nld:grote lijster,eng:mistle thrush}
       Pelecaniformes [order]
-        Ardeidae [family]
-          Ardea [genus]
-            Ardea cinerea [species]
-            Ardea purpurea [species]
+        Ardeidae [family] {VERN=nld:reigers,eng:herons and bitterns}
+          Ardea [genus] {VERN=nld:reiger,eng:heron}
+            Ardea cinerea [species] {VERN=nld:blauwe reiger,eng:grey heron}
+            Ardea purpurea [species] {VERN=nld:purperreiger,eng:purple heron}
           Botaurus [genus]
-            Botaurus stellaris [species]
+            Botaurus stellaris [species] {VERN=nld:roerdomp,eng:bittern}
           Egretta [genus]
-            Egretta alba [species]
+            Egretta alba [species] {VERN=nld:grote zilverreiger,eng:great white heron}
               =Casmerodius albus [species]
-            Egretta garzetta [species]
+            Egretta garzetta [species] {VERN=nld:kleine zilverreiger,eng:little egret}
           Nycticorax [genus]
-            Nycticorax nycticorax [species]
+            Nycticorax nycticorax [species] {VERN=nld:kwak,eng:night heron}
         Pelecanidae [family]
           Pelecanus [genus]
-            Pelecanus crispus [species]
+            Pelecanus crispus [species] {VERN=nld:kroeskoppelikaan,eng:dalmatian pelican}
         Phalacrocoracidae [family]
           Phalacrocorax [genus]
-            Phalacrocorax carbo [species]
-            Phalacrocorax pygmeus [species]
+            Phalacrocorax carbo [species] {VERN=nld:aalscholver,eng:cormorant}
+            Phalacrocorax pygmeus [species] {VERN=nld:dwergaalscholver,eng:pygmy cormorant}
       Phoenicopteriformes [order]
         Phoenicopteridae [family]
           Phoenicopterus [genus]
-            Phoenicopterus ruber [species]
+            Phoenicopterus ruber [species] {VERN=nld:flamingo,eng:greater flamingo}
               =Phoenicopterus roseus [species]
       Piciformes [order]
         Picidae [family]
           Dendrocopos [genus]
-            Dendrocopos major [species]
+            Dendrocopos major [species] {VERN=nld:grote bonte specht,eng:great spotted woodpecker}
       Podicipediformes [order]
         Podicipedidae [family]
           Podiceps [genus]
-            Podiceps cristatus [species]
-            Podiceps nigricollis [species]
+            Podiceps cristatus [species] {VERN=nld:fuut,eng:great crested grebe}
+            Podiceps nigricollis [species] {VERN=nld:geoorde fuut,eng:black-necked Grebe}
           Tachybaptus [genus]
-            Tachybaptus ruficollis [species]
+            Tachybaptus ruficollis [species] {VERN=nld:dodaars,eng:little grebe}
       Procellariiformes [order]
-        Procellariidae [family]
-          Pterodroma [genus]
+        Procellariidae [family] {VERN=nld:stormvogels,eng:shearwater}
+          Pterodroma [genus] {VERN=nld:echte haaksnavelstormvogels,eng:gadfly petrels}
           Fulmarus [genus]
-            Fulmarus glacialis [species]
+            Fulmarus glacialis [species] {VERN=nld:noordse stormvogel,eng:fulma}
         Sulidae [family]
           Sula [genus]
-            Sula bassana [species]
+            Sula bassana [species] {VERN=nld:Jan-van-gent,eng:gannet}
               =Morus bassanus [species]
       Strigiformes [order]
-        Strigidae [family]
+        Strigidae [family] {VERN=nld:uilen,eng:owls}
           Asio [genus]
-            Asio flammeus [species]
-            Asio otus [species]
+            Asio flammeus [species] {VERN=nld:velduil,eng:shorteared owl}
+            Asio otus [species] {VERN=nld:ransuil,eng:longeared owl}
           Athene [genus]
-            Athene noctua [species]
+            Athene noctua [species] {VERN=nld:steenuil,eng:little owl}
           Bubo [genus]
-            Bubo bubo [species]
+            Bubo bubo [species] {VERN=nld:oehoe,eng:eagle owl}
           Strix [genus]
-            Strix aluco [species]
+            Strix aluco [species] {VERN=nld:bosuil,eng:tawny owl}
           Tyto Billberg, 1828 [genus]
-            Tyto alba [species]
-    Chondrichthyes [class]
-      Elasmobranchii [subclass]
+            Tyto alba [species] {VERN=nld:kerkuil,eng:barn owl}
+    Chondrichthyes [class] {VERN=nld:kraakbeenvissen,eng:cartilaginous fishes}
+      Elasmobranchii [subclass] {VERN=nld:haaien en roggen}
       Lamniformes [order]
         Alopiidae [family]
           Alopias [genus]
-            Alopias vulpinus [species]
+            Alopias vulpinus [species] {VERN=nld:voshaai,eng:common thresher}
       Rajiformes [order]
         Dasyatidae [family]
           Dasyatis Rafinesque, 1810 [genus]
-            Dasyatis pastinaca [species]
-        Rajidae [family]
+            Dasyatis pastinaca [species] {VERN=nld:pijlstaartrog,eng:sting ray}
+        Rajidae [family] {VERN=nld:roggen,eng:skates and rays}
           Raja [genus]
-            Raja batis [species] {VERN=eng:common skate}
-            Raja clavata [species]
-            Raja miraletus [species]
-            Raja montagui [species]
+            Raja batis [species] {VERN=eng:common skate,nld:vleet,eng:flapper skate}
+            Raja clavata [species] {VERN=nld:stekelrog,eng:thornback ray}
+            Raja miraletus [species] {VERN=nld:bruine rog}
+            Raja montagui [species] {VERN=nld:gevlekte rog,eng:spotted ray}
       Selachii [order]
         Scyliorhinidae [family]
           Scyliorhinus [genus]
-            Scyliorhinus canicula [species] {VERN=eng:lesser spotted dogfish}
+            Scyliorhinus canicula [species] {VERN=eng:lesser spotted dogfish,nld:hondshaai}
         Squalidae [family]
           Squalus Linnaeus, 1758 [genus]
-            Squalus acanthias [species] {VERN=eng:spurdog}
+            Squalus acanthias [species] {VERN=eng:spurdog,nld:doornhaai,eng:spiny dogfish}
         Squatinidae [family]
           Squatina [genus]
-            Squatina squatina [species] {VERN=eng:monkfish}
-        Triakidae [family]
+            Squatina squatina [species] {VERN=eng:monkfish,nld:zee-engel,eng:angel fish}
+        Triakidae [family] {VERN=nld:ruwe en gladde haaien,eng:triakidae}
           Galeorhinus [genus]
-            Galeorhinus galeus [species]
+            Galeorhinus galeus [species] {VERN=nld:ruwe haai,eng:tope}
           Mustelus [genus]
-            Mustelus asterias [species]
-            Mustelus mustelus [species]
-    Mammalia [class]
+            Mustelus asterias [species] {VERN=nld:gevlekte gladde haai,eng:starry smooth hound}
+            Mustelus mustelus [species] {VERN=nld:gladde haai,eng:common smooth hound}
+    Mammalia [class] {VERN=nld:zoogdier,eng:mammals}
       Artiodactyla [order]
-        Bovidae [family]
+        Bovidae [family] {VERN=nld:holhoornigen,eng:bovids}
           Bison [genus]
-            Bison priscus [species]
+            Bison priscus [species] {VERN=nld:wisent,eng:european wisent}
           Bos [genus]
-            Bos primigenius [species] {VERN=nld:oerrund}
-            Bos taurus [species]
+            Bos primigenius [species] {VERN=nld:oerrund,nld:oeros,eng:aurochs}
+            Bos taurus [species] {VERN=nld:rund,eng:cattle}
           Capra [genus]
-            Capra hircus [species]
+            Capra hircus [species] {VERN=nld:geit,eng:goat}
           Ovis [genus]
-            Ovis ammon [species] {VERN=eng:wild sheep}
-            Ovis aries [species] {VERN=nld:Moeflon}
+            Ovis ammon [species] {VERN=eng:wild sheep,nld:moeflon,eng:mouflon}
+            Ovis aries [species] {VERN=nld:Moeflon,nld:schaap,eng:sheep}
         Camelidae [family]
           Camelus [genus]
-            Camelus bactrianus [species]
-            Camelus dromedarius [species]
-        Cervidae [family]
+            Camelus bactrianus [species] {VERN=nld:kameel,eng:bactrian camel}
+            Camelus dromedarius [species] {VERN=nld:dromedaris,eng:dromedary}
+        Cervidae [family] {VERN=nld:herten,eng:deer}
           Alces [genus]
-            Alces alces [species]
+            Alces alces [species] {VERN=nld:eland,eng:elk}
           Capreolus [genus]
-            Capreolus capreolus [species]
+            Capreolus capreolus [species] {VERN=nld:ree,eng:roe deer}
           Cervus [genus]
-            Cervus elaphus [species]
+            Cervus elaphus [species] {VERN=nld:edelhert,eng:red deer}
           Dama [genus]
-            Dama dama [species]
+            Dama dama [species] {VERN=nld:damhert,eng:fallow deer}
           Megaloceros [genus]
             Megaloceros giganteus [species]
           Rangifer [genus]
-            Rangifer tarandus [species]
+            Rangifer tarandus [species] {VERN=nld:rendier,eng:reindeer}
         Hippopotamidae [family]
-          Hippopotamus [genus]
+          Hippopotamus [genus] {VERN=nld:nijlpaard,eng:hippopotamus}
         Suidae [family]
           Sus [genus]
-            Sus domesticus [species]
-            Sus scrofa [species] {VERN=nld:everzwijn}
-      Carnivora [order]
+            Sus domesticus [species] {VERN=nld:varken,eng:pig}
+            Sus scrofa [species] {VERN=nld:everzwijn,nld:wild zwijn,eng:wild boar}
+      Carnivora [order] {VERN=nld:roofdieren,eng:carnivorans}
         Canidae [family]
           Canis [genus]
-            Canis familiaris [species]
-            Canis lupus [species]
+            Canis familiaris [species] {VERN=nld:hond,eng:dog}
+            Canis lupus [species] {VERN=nld:wolf,eng:wolf}
           Vulpes [genus]
-            Vulpes vulpes [species]
-        Felidae [family]
+            Vulpes vulpes [species] {VERN=nld:vos,eng:fox}
+        Felidae [family] {VERN=nld:katten}
           Felis [genus]
-            Felis catus [species] {VERN=nld:kat}
-            Felis silvestris [species]
+            Felis catus [species] {VERN=nld:kat,nld:huiskat,eng:cat}
+            Felis silvestris [species] {VERN=nld:wilde kat,eng:cat}
           Lynx [genus]
-            Lynx lynx [species]
+            Lynx lynx [species] {VERN=nld:lynx,eng:european lynx}
           Panthera [genus]
-            Panthera leo [species]
-        Mustelidae [family]
+            Panthera leo [species] {VERN=nld:leeuw,eng:lion}
+        Mustelidae [family] {VERN=nld:marterachtigen,eng:mustelidae}
           Lutra [genus]
-            Lutra lutra (Linnaeus, 1758) [species]
-          Martes [genus]
-            Martes foina [species]
-            Martes martes [species]
+            Lutra lutra (Linnaeus, 1758) [species] {VERN=nld:otter,eng:otter}
+          Martes [genus] {VERN=nld:marter,eng:martens}
+            Martes foina [species] {VERN=nld:steenmarter,eng:beach marten}
+            Martes martes [species] {VERN=nld:boommarter,eng:pine marten}
           Meles [genus]
-            Meles meles [species]
+            Meles meles [species] {VERN=nld:das,eng:badger}
           Mustela Linnaeus, 1758 [genus]
-            Mustela erminea [species] {VERN=eng:ermine}
-            Mustela nivalis [species]
-            Mustela putorius furo [subspecies]
+            Mustela erminea [species] {VERN=eng:ermine,nld:hermelijn,eng:stoat}
+            Mustela nivalis [species] {VERN=nld:wezel,eng:weasel}
+            Mustela putorius furo [subspecies] {VERN=nld:fret,eng:ferret}
               =Mustela furo [species]
-            Mustela putorius [species]
+            Mustela putorius [species] {VERN=nld:bunzing,eng:polecat}
               =Putorius putorius [species]
             Mustela lutreola [species] {VERN=nld:Europese nerts}
-        Phocidae [family] {VERN=nld:robben}
+        Phocidae [family] {VERN=nld:robben,nld:zeehondachtigen,eng:seals}
           Halichoerus [genus]
-            Halichoerus grypus [species] {VERN=nld:kegelrob}
+            Halichoerus grypus [species] {VERN=nld:kegelrob,nld:grijze zeehond,eng:grey seal}
           Phoca [genus]
-            Phoca vitulina [species]
+            Phoca vitulina [species] {VERN=nld:gewone zeehond,eng:common seal}
           Pusa Scopoli, 1771 [genus]
-            Pusa hispida [species] {VERN=nld:kleine zeehond,nld:stinkrob}
+            Pusa hispida [species] {VERN=nld:kleine zeehond,nld:stinkrob,nld:ringelrob,eng:ringed seal}
         Ursidae [family]
           Ursus [genus]
-            Ursus arctos [species]
-            Ursus maritimus [species]
-      Cetacea [order]
+            Ursus arctos [species] {VERN=nld:bruine beer,eng:brown bear}
+            Ursus maritimus [species] {VERN=nld:ijsbeer,eng:polar bear}
+      Cetacea [order] {VERN=nld:walvisachtigen,eng:whales}
         Balaenidae [family]
           Balaena [genus]
-            Balaena mysticetus [species]
+            Balaena mysticetus [species] {VERN=nld:groenlandse walvis,eng:bowhead whale}
           Eubalaena [genus]
-            Eubalaena glacialis [species]
-        Balaenopteridae [family]
-          Balaenoptera [genus] {VERN=eng:sei whale}
-            Balaenoptera borealis [species]
-            Balaenoptera physalus [species]
+            Eubalaena glacialis [species] {VERN=nld:noordkaper,eng:north atlantic right whale}
+        Balaenopteridae [family] {VERN=nld:vinvissen,eng:rorquals}
+          Balaenoptera [genus] {VERN=eng:sei whale,nld:vinvissen,eng:fin whales}
+            Balaenoptera borealis [species] {VERN=nld:noordse vinvis,eng:sei whale}
+            Balaenoptera physalus [species] {VERN=nld:gewone vinvis,eng:fin whale}
           Megaptera [genus]
-            Megaptera novaeangliae [species]
+            Megaptera novaeangliae [species] {VERN=nld:bultrug,eng:humpback whale}
         Delphinidae [family]
           Delphinus [genus]
-            Delphinus delphis [species]
+            Delphinus delphis [species] {VERN=nld:gewone dolfijn,eng:common dolphin}
           Globicephala [genus]
-            Globicephala melas [species]
+            Globicephala melas [species] {VERN=nld:griend,eng:long-finned pilot whale}
           Lagenorhynchus [genus]
-            Lagenorhynchus albirostris [species]
+            Lagenorhynchus albirostris [species] {VERN=nld:witsnuitdolfijn,eng:white-beaked dolphin}
           Orcinus [genus]
-            Orcinus orca [species] {VERN=nld:zwaardwalvis}
+            Orcinus orca [species] {VERN=nld:zwaardwalvis,nld:orka,eng:common killer whale}
           Tursiops [genus]
-            Tursiops truncatus [species] {VERN=nld:tuimelaar}
+            Tursiops truncatus [species] {VERN=nld:tuimelaar,eng:common bottlenose dolphin}
         Phocoenidae [family]
           Phocoena [genus]
-            Phocoena phocoena [species]
+            Phocoena phocoena [species] {VERN=nld:bruinvis,eng:harbour porpoise}
         Physeteridae [family]
           Physeter [genus]
-            Physeter macrocephalus [species]
+            Physeter macrocephalus [species] {VERN=nld:potvis,eng:sperm whale}
         Ziphiidae [family]
           Hyperoodon Lacépède, 1804 [genus]
-            Hyperoodon ampullatus [species]
-      Chiroptera [order]
+            Hyperoodon ampullatus [species] {VERN=nld:butskop,eng:bottle-nosed whale}
+      Chiroptera [order] {VERN=nld:vleermuizen,eng:bats}
         Vespertilionidae [family]
           Myotis [genus]
-            Myotis myotis [species]
+            Myotis myotis [species] {VERN=nld:vale vleermuis,eng:greater mouse-eared bat}
       Eulipotyphla Waddell, Okada & Hasegawa, 1999 [order]
         =Insectivora [order]
         Erinaceidae [family]
           Erinaceus [genus]
-            Erinaceus europaeus [species]
-        Soricidae [family]
+            Erinaceus europaeus [species] {VERN=nld:egel,eng:hedgehog}
+        Soricidae [family] {VERN=nld:spitsmuizen,eng:shrews}
           Crocidura [genus]
-            Crocidura leucodon [species]
-            Crocidura russula [species]
+            Crocidura leucodon [species] {VERN=nld:veldspitsmuis,eng:bicolor whitetoothed shrew}
+            Crocidura russula [species] {VERN=nld:huisspitsmuis,eng:common european whitetoothed shrew}
           Neomys [genus]
-            Neomys fodiens [species]
+            Neomys fodiens [species] {VERN=nld:waterspitsmuis,eng:european water shrew}
           Sorex [genus]
-            Sorex araneus [species] {VERN=nld:bosspitsmuis}
-            Sorex coronatus [species]
-            Sorex minutus [species]
+            Sorex araneus [species] {VERN=nld:bosspitsmuis,nld:gewone bosspitsmuis,eng:common shrew}
+            Sorex coronatus [species] {VERN=nld:tweekleurige bosspitsmuis,eng:french shrew}
+            Sorex minutus [species] {VERN=nld:dwergspitsmuis,eng:lesser shrew}
         Talpidae [family]
           Talpa [genus]
-            Talpa europaea [species]
-      Lagomorpha [order]
-        Leporidae [family]
-          Lepus [genus]
-            Lepus capensis [species]
-            Lepus europaeus [species] {VERN=eng:common hare}
-            Lepus timidus [species] {VERN=eng:irish hare}
+            Talpa europaea [species] {VERN=nld:mol,eng:mole}
+      Lagomorpha [order] {VERN=nld:haasachtigen,eng:lagomorphs}
+        Leporidae [family] {VERN=nld:hazen en konijnen,eng:hares and rabbits}
+          Lepus [genus] {VERN=nld:echte hazen,eng:true hares}
+            Lepus capensis [species] {VERN=nld:Kaapse haas,eng:Cape hare}
+            Lepus europaeus [species] {VERN=eng:common hare,nld:haas,eng:brown hare}
+            Lepus timidus [species] {VERN=eng:irish hare,nld:sneeuwhaas,eng:mountain hare}
           Oryctolagus [genus]
-            Oryctolagus cuniculus [species]
+            Oryctolagus cuniculus [species] {VERN=nld:konijn,eng:rabbit}
       Perissodactyla [order]
         Equidae [family]
-          Equus [genus]
-            Equus asinus [species]
-            Equus caballus [species]
+          Equus [genus] {VERN=nld:paarden,eng:horses}
+            Equus asinus [species] {VERN=nld:ezel,eng:ass}
+            Equus caballus [species] {VERN=nld:paard,eng:horse}
             Equus ferus caballus [subspecies]
             Equus ferus [species]
       Primates [order]
         Cebidae [family]
-          Cebus [genus]
+          Cebus [genus] {VERN=nld:kapucijnaap,eng:capuchin monkey}
         Cercopithecidae [family]
           Cercopithecus [genus]
-            Cercopithecus aethiops [species]
+            Cercopithecus aethiops [species] {VERN=nld:groene meerkat,eng:grass monkey}
         Hominidae [family]
           Homo [genus]
-            Homo sapiens [species]
-      Proboscidea [order]
-        Elephantidae [family]
+            Homo sapiens [species] {VERN=nld:mens,eng:human}
+      Proboscidea [order] {VERN=nld:slurfdieren,eng:proboscideans}
+        Elephantidae [family] {VERN=nld:olifanten,eng:elephants}
           Loxodonta [genus]
-            Loxodonta africana [species]
-          Mammuthus [genus]
-            Mammuthus primigenius [species]
-      Rodentia [order]
+            Loxodonta africana [species] {VERN=nld:Afrikaanse olifant,eng:African bush elephant}
+          Mammuthus [genus] {VERN=nld:mammoet,eng:mammoth}
+            Mammuthus primigenius [species] {VERN=nld:wolharige mammoet,eng:wooly mammoth}
+      Rodentia [order] {VERN=nld:knaagdieren,eng:small rodent}
         Arvicolidae [family]
-          Arvicola [genus]
-            Arvicola sapidus [species]
-            Arvicola terrestris [species]
+          Arvicola [genus] {VERN=nld:woelrat,nld:waterrat,eng:water vole}
+            Arvicola sapidus [species] {VERN=nld:zuidelijke waterrat,eng:southwestern water vole}
+            Arvicola terrestris [species] {VERN=nld:woelrat,eng:european water vole}
               =Arvicola amphibius [species]
           Clethrionomys [genus]
-            Clethrionomys glareolus [species]
+            Clethrionomys glareolus [species] {VERN=nld:rosse woelmuis,eng:bank vole}
               =Myodes glareolus [species]
-          Microtus [genus]
-            Microtus agrestis [species]
-            Microtus arvalis [species]
-            Microtus oeconomus [species]
+          Microtus [genus] {VERN=nld:woelmuis,eng:vole}
+            Microtus agrestis [species] {VERN=nld:aardmuis,eng:field vole}
+            Microtus arvalis [species] {VERN=nld:veldmuis,eng:common vole}
+            Microtus oeconomus [species] {VERN=nld:noordse woelmuis,eng:root vole}
           Pitymys [genus]
-            Pitymys subterraneus [species]
+            Pitymys subterraneus [species] {VERN=nld:ondergrondse woelmuis,eng:earth vole}
               =Microtus subterraneus [species]
         Castoridae [family]
           Castor [genus]
-            Castor fiber [species]
+            Castor fiber [species] {VERN=nld:bever,eng:beaver}
         Caviidae [family]
           Cavia [genus]
-            Cavia porcellus [species]
+            Cavia porcellus [species] {VERN=nld:cavia,eng:guinae pig}
         Cricetidae [family]
           Cricetus [genus]
-            Cricetus cricetus [species] {VERN=nld:hamster}
-        Gliridae [family]
+            Cricetus cricetus [species] {VERN=nld:hamster,nld:korenwolf,eng:common hamster}
+        Gliridae [family] {VERN=nld:slaapmuizen,eng:dormouses}
           Eliomys [genus]
-            Eliomys quercinus [species]
+            Eliomys quercinus [species] {VERN=nld:eikelmuis,eng:garden dormouse}
           Muscardinus [genus]
-            Muscardinus avellanarius [species]
-        Muridae [family]
-          Apodemus [genus]
-            Apodemus flavicollis [species]
-            Apodemus sylvaticus [species]
+            Muscardinus avellanarius [species] {VERN=nld:hazelmuis,eng:common dormouse}
+        Muridae [family] {VERN=nld:muizen en ratten,eng:old world rats and mice}
+          Apodemus [genus] {VERN=nld:bosmuizen,eng:field mouse}
+            Apodemus flavicollis [species] {VERN=nld:grote bosmuis,eng:yellownecked field mouse}
+            Apodemus sylvaticus [species] {VERN=nld:bosmuis,eng:longtailed field mouse}
           Micromys Dehne, 1841 [genus]
-            Micromys minutus [species]
+            Micromys minutus [species] {VERN=nld:dwergmuis,eng:harvest mouse}
           Microtidae [subfamily]
           Mus Linnaeus, 1758 [genus]
-            Mus musculus [species]
+            Mus musculus [species] {VERN=nld:huismuis,eng:huismuis}
               =Mus domesticus [species]
-          Rattus [genus]
-            Rattus norvegicus [species] {VERN=nld:rioolrat,nld:waterrat}
-            Rattus rattus [species] {VERN=nld:dakrat,nld:huisrat,nld:scheepsrat}
+          Rattus [genus] {VERN=nld:rat,eng:rat}
+            Rattus norvegicus [species] {VERN=nld:rioolrat,nld:waterrat,nld:bruine rat,eng:brown rat}
+            Rattus rattus [species] {VERN=nld:dakrat,nld:huisrat,nld:scheepsrat,nld:zwarte rat,eng:house rat}
         Sciuridae [family]
           Sciurus Linnaeus, 1758 [genus]
-            Sciurus vulgaris [species]
+            Sciurus vulgaris [species] {VERN=nld:eekhoorn,eng:squirrel}
     Osteichthyes [class]
       Anguilliformes [order]
         Anguillidae [family]
           Anguilla [genus]
-            Anguilla anguilla [species]
+            Anguilla anguilla [species] {VERN=nld:paling,eng:eel}
         Congridae [family]
           Conger [genus]
-            Conger conger [species] {VERN=nld:zeepaling}
+            Conger conger [species] {VERN=nld:zeepaling,nld:kongeraal,eng:conger eel}
       Atheriniformes [order]
         Atherinidae [family]
           Atherina [genus]
-            Atherina boyeri [species] {VERN=eng:boyers sand smelt}
-            Atherina presbyter [species]
+            Atherina boyeri [species] {VERN=eng:boyers sand smelt,nld:kleine koornaarvis,eng:big scale sand smelt}
+            Atherina presbyter [species] {VERN=nld:koornaarvis,eng:sand smelt}
       Batrachoidiformes [order]
         Lophiidae [family]
           Lophius [genus]
-            Lophius piscatorius [species]
+            Lophius piscatorius [species] {VERN=nld:zeeduivel,eng:angler fish}
       Cyprinodontiformes [order]
         Belonidae [family]
           Belone [genus]
-            Belone belone [species]
+            Belone belone [species] {VERN=nld:geep,eng:garfish}
       Gadiformes [order]
-        Gadidae [family]
+        Gadidae [family] {VERN=nld:kabeljauwen,eng:cods}
           Brosme [genus]
-            Brosme brosme [species]
+            Brosme brosme [species] {VERN=nld:lom,eng:torsk}
           Ciliata [genus]
-            Ciliata mustela [species]
+            Ciliata mustela [species] {VERN=nld:vijfdradige meun,eng:five bearded rockling}
           Gadus [genus]
-            Gadus morhua [species]
+            Gadus morhua [species] {VERN=nld:kabeljauw,eng:cod}
           Lota [genus]
-            Lota lota [species]
+            Lota lota [species] {VERN=nld:kwabaal,eng:burbot}
           Melanogrammus [genus]
-            Melanogrammus aeglefinus [species]
+            Melanogrammus aeglefinus [species] {VERN=nld:schelvis,eng:haddock}
           Merlangius [genus]
-            Merlangius merlangus [species]
+            Merlangius merlangus [species] {VERN=nld:wijting,eng:whiting}
           Molva [genus]
-            Molva dypterygia [species]
-            Molva molva [species]
+            Molva dypterygia [species] {VERN=nld:blauwe leng,eng:blue ling}
+            Molva molva [species] {VERN=nld:leng,eng:ling}
           Pollachius [genus]
-            Pollachius pollachius [species]
-            Pollachius virens [species] {VERN=eng:pollack}
+            Pollachius pollachius [species] {VERN=nld:pollak,eng:green pollack}
+            Pollachius virens [species] {VERN=eng:pollack,nld:koolvis,eng:coalfish}
           Trisopterus [genus]
-            Trisopterus luscus [species]
-            Trisopterus minutus [species]
+            Trisopterus luscus [species] {VERN=nld:steenbolk,eng:pouting}
+            Trisopterus minutus [species] {VERN=nld:dwergbolk,eng:poor cod}
         Merlucciidae [family]
           Merluccius [genus]
-            Merluccius merluccius [species]
+            Merluccius merluccius [species] {VERN=nld:heek,eng:hake}
       Gasterosteiformes [order]
-        Gasterosteidae [family]
+        Gasterosteidae [family] {VERN=nld:stekelbaarzen,eng:stickleback}
           Gasterosteus [genus]
-            Gasterosteus aculeatus [species]
+            Gasterosteus aculeatus [species] {VERN=nld:driedoornige stekelbaars,eng:three spined stickleback}
           Pungitius [genus]
-            Pungitius pungitius [species]
+            Pungitius pungitius [species] {VERN=nld:tiendoornige stekelbaars,eng:ten spined stickleback}
           Spinachia [genus]
-            Spinachia spinachia [species]
+            Spinachia spinachia [species] {VERN=nld:zeestekelbaars,eng:sea stickleback}
       Pectiformes [order]
         Mullidae [family]
           Mullus [genus]
-            Mullus surmuletus [species] {VERN=nld:zeebarbeel}
+            Mullus surmuletus [species] {VERN=nld:zeebarbeel,nld:mul,eng:red mullet}
       Perciformes [order]
         Ammodytidae [family]
           Ammodytes [genus]
-            Ammodytes marinus [species]
-            Ammodytes tobianus [species]
+            Ammodytes marinus [species] {VERN=nld:noorse zandspiering,eng:raitts sandeel}
+            Ammodytes tobianus [species] {VERN=nld:zandspiering,eng:lesser sandeel}
           Hyperoplus [genus]
-            Hyperoplus lanceolatus [species]
+            Hyperoplus lanceolatus [species] {VERN=nld:smelt,eng:greater sandeel}
         Anarhichadidae [family]
           Anarhichas [genus]
-            Anarhichas lupus [species]
+            Anarhichas lupus [species] {VERN=nld:zeewolf,eng:wolf fish}
         Blenniidae [family]
           Lipophrys [genus]
-            Lipophrys pholis [species]
+            Lipophrys pholis [species] {VERN=nld:slijmvis,eng:shanny}
         Callionymidae [family]
           Callionymus [genus]
-            Callionymus lyra [species]
+            Callionymus lyra [species] {VERN=nld:pitvis,eng:common dragonet}
         Carangidae [family]
           Trachurus [genus]
-            Trachurus trachurus [species] {VERN=eng:scad}
+            Trachurus trachurus [species] {VERN=eng:scad,nld:horsmakreel,eng:horse mackerel}
         Gobiidae [family]
           Pomatoschistus [genus]
-            Pomatoschistus lozanoi [species]
-            Pomatoschistus microps [species]
-            Pomatoschistus minutus [species]
-        Mugilidae [family]
+            Pomatoschistus lozanoi [species] {VERN=nld:Lozano's grondel,eng:Lozano's goby}
+            Pomatoschistus microps [species] {VERN=nld:brakwatergrondel,eng:common goby}
+            Pomatoschistus minutus [species] {VERN=nld:dikkopje,eng:sand goby}
+        Mugilidae [family] {VERN=nld:harders,eng:grey mullets}
           Chelon [genus]
-            Chelon labrosus [species]
+            Chelon labrosus [species] {VERN=nld:diklipharder,eng:thick lipped grey mullet}
           Liza [genus]
-            Liza aurata [species]
-            Liza ramada [species]
+            Liza aurata [species] {VERN=nld:goudharder,eng:golden grey mullet}
+            Liza ramada [species] {VERN=nld:dunlipharder,eng:thin lipped grey mullet}
         Percichtthidae [family]
           Dicentrarchus [genus]
-            Dicentrarchus labrax [species]
-        Percidae [family] {VERN=nld:echte baarzen}
+            Dicentrarchus labrax [species] {VERN=nld:zeebaars,eng:bass}
+        Percidae [family] {VERN=nld:echte baarzen,nld:zoetwaterbaarzen,eng:perciform fish}
           Gymnocephalus Bloch, 1793 [genus]
-            Gymnocephalus cernua [species]
+            Gymnocephalus cernua [species] {VERN=nld:pos,eng:ruffe}
           Perca [genus]
-            Perca fluviatilis [species]
+            Perca fluviatilis [species] {VERN=nld:baars,eng:perch}
           Stizostedion [genus]
-            Stizostedion lucioperca [species]
+            Stizostedion lucioperca [species] {VERN=nld:snoekbaars,eng:pikeperch}
               =Sander lucioperca [species]
         Sciaenidae [family]
           Argyrosomus De la Pylaie, 1835 [genus]
-            Argyrosomus regius [species]
+            Argyrosomus regius [species] {VERN=nld:ombervis,eng:meagre}
         Scombridae [family]
           Scomber [genus]
-            Scomber japonicus [species]
-            Scomber scombrus [species]
+            Scomber japonicus [species] {VERN=nld:spaanse makreel,eng:chub mackerel}
+            Scomber scombrus [species] {VERN=nld:makreel,eng:mackerel}
           Thunnus [genus]
-            Thunnus thynnus [species]
+            Thunnus thynnus [species] {VERN=nld:tonijn,eng:northern blue fin tuna}
         Sparidae [family]
           Pagellus [genus]
-            Pagellus bogaraveo [species]
+            Pagellus bogaraveo [species] {VERN=nld:zeebrasem,eng:red sea bream}
           Spondyliosoma [genus]
-            Spondyliosoma cantharus [species]
+            Spondyliosoma cantharus [species] {VERN=nld:zeekarper,eng:black sea bream}
         Sphyraenidae [family]
-          Sphyraena [genus]
+          Sphyraena [genus] {VERN=nld:barracuda,eng:barracuda}
         Trachnidae [family]
           Echiichthys [genus]
-            Echiichthys vipera [species]
+            Echiichthys vipera [species] {VERN=nld:kleine pieterman,eng:lesser weever}
           Trachinus Linnaeus, 1758 [genus]
-            Trachinus draco [species]
+            Trachinus draco [species] {VERN=nld:grote pieterman,eng:greater weever}
         Zoarcidae [family]
           Zoarces [genus]
-            Zoarces viviparus [species]
+            Zoarces viviparus [species] {VERN=nld:puitaal,eng:eelpout}
       Siluriformes [order]
         Siluridae [family]
           Silurus [genus]
-            Silurus glanis [species]
+            Silurus glanis [species] {VERN=nld:meerval,eng:catfish}
       Syngnathiformes [order]
         Syngnathidae [family]
           Syngnathus [genus]
-            Syngnathus acus [species]
-    Reptilia [class]
+            Syngnathus acus [species] {VERN=nld:grote zeenaald,eng:great pipe fish}
+    Reptilia [class] {VERN=nld:reptielen,eng:reptiles}
       Squamata [order]
         Anguidae [family]
           Anguis [genus]
-            Anguis fragilis [species]
+            Anguis fragilis [species] {VERN=nld:hazelworm,eng:slow worm}
         Colubridae [family]
           Coronella [genus]
-            Coronella austriaca [species]
+            Coronella austriaca [species] {VERN=nld:gladde slang,eng:smooth snake}
           Natrix [genus]
-            Natrix natrix [species]
+            Natrix natrix [species] {VERN=nld:ringslang,eng:grass snake}
         Lacertidae [family]
           Lacerta [genus]
-            Lacerta agilis [species] {VERN=nld:duinhagedis,nld:heihagedis}
+            Lacerta agilis [species] {VERN=nld:duinhagedis,nld:heihagedis,nld:zandhagedis,eng:sand lizard}
             Podarcis muralis (Laurenti, 1768) [species]
-              =Lacerta muralis [species]
-            Lacerta vivipara [species] {VERN=nld:kleine hagedis}
+              =Lacerta muralis [species] {VERN=nld:muurhagedis,eng:common wall lizard}
+            Lacerta vivipara [species] {VERN=nld:kleine hagedis,nld:levendbarende hagedis,eng:viviparous lizard}
               =Zootoca vivipara [species]
         Viperidae [family]
           Vipera Laurenti, 1768 [genus]
-            Vipera berus [species]
+            Vipera berus [species] {VERN=nld:adder,eng:adder}
       Testudines [order]
         Emydidae [family]
           Emys [genus]
-            Emys orbicularis [species]
+            Emys orbicularis [species] {VERN=nld:europese moerasschildpad,eng:european pond turtle}
   Clitellata [class]
     Opisthopora [order]
-      Lumbricidae [family]
+      Lumbricidae [family] {VERN=nld:regenworm,eng:earthworm}
   Cnidaria [phylum]
     Anthozoa [class] {VERN=nld: bloemdieren}
-    Hydrozoa [class] {VERN=nld:poliepen}
+    Hydrozoa [class] {VERN=nld:poliepen,nld:hydroïdpoliepen,eng:polyps}
       Filifera [order]
         Hydractiniidae [family]
           Hydractinia [genus]
@@ -1792,8 +1792,8 @@ Animalia [kingdom]
   Echinodermata [phylum]
     Ophiurida [order]
       Ophiuridae [family]
-        Ophiura [genus]
-    Echinoidea [class]
+        Ophiura [genus] {VERN=nld:slangster}
+    Echinoidea [class] {VERN=nld:zee-egels,eng:sea-urchins}
       Clypeasteroida [order]
         Fibulariidae [family]
           Echinocyamus [genus]
@@ -1801,8 +1801,8 @@ Animalia [kingdom]
       Spantagoida [order]
         Echinothuridae [family]
           Echinocardium [genus]
-            Echinocardium cordatum [species]
-    Ophiuroidea [class]
+            Echinocardium cordatum [species] {VERN=nld:hartvormige zeeklit,eng:sea potato}
+    Ophiuroidea [class] {VERN=nld:slangsterren,eng:brittle stars}
   Ectoprocta [phylum]
     Gymnolaemata [class]
       Cheilostomatida [order]
@@ -1810,308 +1810,308 @@ Animalia [kingdom]
           Scrupocellaria [genus]
         Electridae [family]
           Conopeum [genus]
-            Conopeum reticulum (Linnaeus, 1767) [species]
+            Conopeum reticulum (Linnaeus, 1767) [species] {VERN=nld:zeekantwerk}
           Electra [genus]
-            Electra pilosa [species]
-  Foraminifera [class]
-  Mollusca [phylum]
-    Bivalvia [class]
+            Electra pilosa [species] {VERN=nld:harig mosdiertje}
+  Foraminifera [class] {VERN=nld:Foraminifera,eng:Foraminifera}
+  Mollusca [phylum] {VERN=nld:weekdieren,eng:molluscs}
+    Bivalvia [class] {VERN=nld:tweekleppigen,eng:bivalves}
       Arcoida [order]
         Glycymerididae [family]
           Glycymeris [genus]
-            Glycymeris glycymeris [species]
+            Glycymeris glycymeris [species] {VERN=nld:gewone marmerschelp,eng:dog cockle}
       Myoida [order]
         Hiatellidae [family]
           Hiatella Bosc, 1801 [genus]
-            Hiatella striata [species]
+            Hiatella striata [species] {VERN=nld:noordse rotsboorder,eng:Norwegian rock-borer}
               =Hiatella arctica [species]
         Myidae [family]
-          Mya [genus]
-            Mya arenaria [species] {VERN=eng:cockle brillon,nld:gortschelp,nld:grote strandgaper,eng:sand gaper}
-            Mya truncata [species]
+          Mya [genus] {VERN=nld:gaper}
+            Mya arenaria [species] {VERN=eng:cockle brillon,nld:gortschelp,nld:grote strandgaper,eng:sand gaper,nld:strandgaper,eng:soft-shelled clam}
+            Mya truncata [species] {VERN=nld:afgeknotte gaper,eng:blunt gaper}
           Sphenia [genus]
-            Sphenia binghami [species]
+            Sphenia binghami [species] {VERN=nld:kleine gaper,eng:small gaper}
         Pholadidae [family]
           Barnea [genus]
-            Barnea candida [species]
+            Barnea candida [species] {VERN=nld:witte boormossel,eng:white piddock}
           Pholas [genus]
-            Pholas dactylus [species] {VERN=nld:pholade}
+            Pholas dactylus [species] {VERN=nld:pholade,nld:gewone boormossel,eng:common piddock}
           Zirfaea [genus]
-            Zirfaea crispata (Linnaeus, 1758) [species]
+            Zirfaea crispata (Linnaeus, 1758) [species] {VERN=nld:ruwe boormossel,eng:oval piddock}
         Teredinidae [family]
           Teredo [genus]
-            Teredo navalis [species] {VERN=nld:paalworm}
+            Teredo navalis [species] {VERN=nld:paalworm,nld:gewone paalworm,eng:ship worm}
       Mytiloida [order]
         Mytilidae [family]
           Modiolus [genus]
-            Modiolus modiolus [species] {VERN=nld:paardemossel}
+            Modiolus modiolus [species] {VERN=nld:paardemossel,nld:gewone paardenmossel,eng:common horse mussel}
           Mytilus [genus]
-            Mytilus edulis [species] {VERN=eng:blue mussel}
+            Mytilus edulis [species] {VERN=eng:blue mussel,nld:mossel,eng:common mussel}
       Nuculoida [order]
         Nuculidae [family]
           Nucula [genus]
-            Nucula nitidosa [species] {VERN=nld:glanzende parelmoerneut}
-            Nucula nucleus [species]
+            Nucula nitidosa [species] {VERN=nld:glanzende parelmoerneut,nld:driehoekige parelmoerneut}
+            Nucula nucleus [species] {VERN=nld:ovale parelmoerneut,eng:common nut-shell}
       Ostreoida [order]
         Ostreidae [family]
           Ostrea [genus]
-            Ostrea edulis [species] {VERN=eng:common oyster,nld:oester}
+            Ostrea edulis [species] {VERN=eng:common oyster,nld:oester,nld:gewone oester,eng:oyster}
           Crassostrea [genus]
-            Crassostrea angulata [species]
-            Crassostrea gigas [species]
+            Crassostrea angulata [species] {VERN=nld:Portugese oester,eng:Portuguese oyster}
+            Crassostrea gigas [species] {VERN=nld:Japanse oester,eng:Japanese oyster}
       Pectinoida [order]
         Pectinidae [family]
           Pecten [genus]
-            Pecten jacobaeus [species]
-            Pecten maximus [species]
-          Chlamys [genus]
-            Chlamys opercularis [species]
+            Pecten jacobaeus [species] {VERN=nld:Mediterrane Sint-Jakobsschelp,eng:scallop,eng:clam}
+            Pecten maximus [species] {VERN=nld:Sint-Jacobsschelp,eng:giant scallop}
+          Chlamys [genus] {VERN=nld:mantelschelpen,eng:scallop}
+            Chlamys opercularis [species] {VERN=nld:wijde mantel,eng:quin}
               =Aequipecten opercularis [species]
-            Chlamys varia [species]
+            Chlamys varia [species] {VERN=nld:bonte mantel,eng:variegated scallop}
               =Mimachlamys varia [species]
         Petricolidae [family]
           Petricola [genus]
-            Petricola pholadiformis [species]
+            Petricola pholadiformis [species] {VERN=nld:amerikaanse boormossel}
               =Petricolaria pholadiformis [species]
       Pholadomyoida [order]
         Thraciidae [family]
           Thracia [genus]
-            Thracia phaseolina [species]
+            Thracia phaseolina [species] {VERN=nld:gewone papierschelp,eng:papery lantern-shell}
               =Thracia papyracea [species]
       Pterioida [order]
         Anomiidae [family]
           Anomia [genus]
-            Anomia ephippium [species]
+            Anomia ephippium [species] {VERN=nld:paardezadel,eng:saddle oyster}
         Limidae [family]
           Lima [genus]
             Limaria loscombi (G. B. Sowerby I, 1823)
-              =Lima loscombi G. B. Sowerby I, 1823 [species]
+              =Lima loscombi G. B. Sowerby I, 1823 [species] {VERN=nld:scheve vijlschelp}
               =Limea loscombii [species]
       Unionoida [order]
         Margaritiferidae [family]
           Pseudunio [genus]
-            Pseudunio auricularia [species]
+            Pseudunio auricularia [species] {VERN=nld:rivierparelmossel,eng:Spengler's freshwater mussel}
         Unionidae [family]
           Anodonta [genus]
-            Anodonta cygnaea [species] {VERN=nld:zwanemossel}
+            Anodonta cygnaea [species] {VERN=nld:zwanemossel,nld:brede zwanenmossel,eng:swan mussel}
               =Anodonta cygnea [species]
-          Unio [genus]
+          Unio [genus] {VERN=nld:stroommossel}
             Unio crassus [species] {VERN=nld:Bataafse stroommossel}
               =Unio batavus [species]
-            Unio pictorum [species]
-            Unio tumidus [species]
+            Unio pictorum [species] {VERN=nld:schildersmossel}
+            Unio tumidus [species] {VERN=nld:bolle stroommossel}
       Veneroida [order]
         Arcticidae [family]
           Arctica [genus]
-            Arctica islandica [species]
+            Arctica islandica [species] {VERN=nld:noordkromp,eng:Iceland cyprina}
         Astartidae [family]
           Tridonta [genus]
             Tridonta montagui [species] {VERN=nld:Driehoekige astarte}
-              =Astarte montagui [species]
+              =Astarte montagui [species] {VERN=nld:driehoekige astarte}
         Cardiidae [family]
           Acanthocardia [genus]
             Acanthocardia echinata [species]
-              =Acanthocardia echinatum [species]
+              =Acanthocardia echinatum [species] {VERN=nld:gedoornde hartschelp,eng:prickly cockle}
               =Cardium echinatum Linnaeus, 1758 [species]
-          Cerastoderma [genus]
-            Cerastoderma edule [species] {VERN=nld:eetbare hartschelp,nld:kokkel}
+          Cerastoderma [genus] {VERN=nld:hartschelp}
+            Cerastoderma edule [species] {VERN=nld:eetbare hartschelp,nld:kokkel,nld:gewone kokkel,eng:common cockle}
               =Cardium edule Pallary, 1913 [species]
-            Cerastoderma glaucum [species]
+            Cerastoderma glaucum [species] {VERN=nld:brakwaterkokkel}
               =Cerastoderma lamarcki [species]
           Laevicardium [genus]
-            Laevicardium crassum [species]
+            Laevicardium crassum [species] {VERN=nld:noorse hartschelp,eng:smooth cockle}
         Donacidae [family]
           Donax [genus]
-            Donax vittatus [species] {VERN=eng:banded wedge-shell}
+            Donax vittatus [species] {VERN=eng:banded wedge-shell,nld:zaagje,eng:wedge shell}
         Dreissenidae [family]
           Dreissena [genus]
-            Dreissena polymorpha [species]
+            Dreissena polymorpha [species] {VERN=nld:gewone driehoeksmossel,eng:zebra mussel}
         Erycinidae [family]
           Lasaea [genus]
-            Lasaea rubra [species]
+            Lasaea rubra [species] {VERN=nld:korstmosschelpje,eng:ruddy lasaea}
         Kelliidae [family]
           Kellia [genus]
-            Kellia suborbicularis [species]
+            Kellia suborbicularis [species] {VERN=nld:holteschelpje,eng:globose kelly-shell}
         Lucinidae [family]
           Lucinella [genus]
-            Lucinella divaricata [species] {VERN=nld:vorkstrepige telline}
+            Lucinella divaricata [species] {VERN=nld:vorkstrepige telline,nld:dubbeltjesschelp}
         Mactridae [family]
           Lutraria [genus]
-            Lutraria lutraria [species] {VERN=nld:otterschelp,nld:ovale slijkschelp}
+            Lutraria lutraria [species] {VERN=nld:otterschelp,nld:ovale slijkschelp,nld:gewone otterschelp,eng:common otter-shell}
           Mactra [genus]
-            Mactra corallina [species]
+            Mactra corallina [species] {VERN=nld:grote strandschelp,eng:trough shell}
               =Mactra stultorum [species]
-          Spisula [genus]
-            Spisula elliptica [species]
-            Spisula solida [species]
-            Spisula subtruncata [species]
+          Spisula [genus] {VERN=nld:strandschelp}
+            Spisula elliptica [species] {VERN=nld:ovale strandschelp,eng:elliptical trough-shell}
+            Spisula solida [species] {VERN=nld:stevige strandschelp,eng:thick trough-shell}
+            Spisula subtruncata [species] {VERN=nld:halfgeknotte strandschelp,eng:cut trough-shell}
         Montacutidae [family]
           Mysella [genus]
             Mysella bidentata [species]
               =Kurtiella bidentata [species]
         Neoleptonidae [family]
           Epilepton [genus]
-            Epilepton clarkiae [species]
+            Epilepton clarkiae [species] {VERN=nld:drietandschelpje}
         Pharidae [family]
           Ensis [genus]
-            Ensis arcuatis [species]
+            Ensis arcuatis [species] {VERN=nld:grote zwaardschede}
               =Ensis magnus [species]
-            Ensis ensis [species] {VERN=eng:common razor}
-            Ensis siliqua [species] {VERN=nld:groot tafelmesheft}
+            Ensis ensis [species] {VERN=eng:common razor,nld:kleine zwaardschede,eng:sabre razor}
+            Ensis siliqua [species] {VERN=nld:groot tafelmesheft,eng:pod razor}
         Psammobiidae [family]
           Gari [genus]
-            Gari fervensis [species]
+            Gari fervensis [species] {VERN=nld:geplooide zonneschelp}
         Scobiculariidae [family]
           Scrobicularia [genus]
-            Scrobicularia plana [species] {VERN=eng:furrow shell}
+            Scrobicularia plana [species] {VERN=eng:furrow shell,nld:platte slijkgaper,eng:peppery furrow-shell}
         Semelidae [family]
           Abra [genus]
-            Abra alba [species]
-            Abra tenuis [species]
+            Abra alba [species] {VERN=nld:witte dunschaal,eng:white furrow-shell}
+            Abra tenuis [species] {VERN=nld:tere dunschaal,eng:thin furrow-shell}
         Sphaeriidae [family]
-          Pisidium [genus]
-            Pisidium amnicum [species] {VERN=nld:rivier-erwtenmossel}
-            Pisidium henslowanum [species]
-            Pisidium nitidum [species]
-            Pisidium supinum [species]
-            Pisidium moitessierianum [species]
-          Sphaerium [genus]
-            Sphaerium corneum [species]
-            Sphaerium rivicola [species]
+          Pisidium [genus] {VERN=nld:fijnschaal}
+            Pisidium amnicum [species] {VERN=nld:rivier-erwtenmossel,nld:rivierfijnschaal,eng:large pea shell}
+            Pisidium henslowanum [species] {VERN=nld:kleine erwtenmossel}
+            Pisidium nitidum [species] {VERN=nld:glanzende erwtenmossel}
+            Pisidium supinum [species] {VERN=nld:driehoekige erwtenmossel}
+            Pisidium moitessierianum [species] {VERN=nld:dwergerwtenmossel}
+          Sphaerium [genus] {VERN=nld:hoornschaal}
+            Sphaerium corneum [species] {VERN=nld:gewone hoornschaal,eng:horny orb mussel}
+            Sphaerium rivicola [species] {VERN=nld:rivierhoornschaal,eng:nut orb mussel}
             Sphaerium solidum [species] {VERN=nld:stevige hoornschaal}
           Musculium [genus]
-            Musculium lacustre [species]
+            Musculium lacustre [species] {VERN=nld:moerashoornschaal,eng:lake orb mussel}
               =Sphaerium lacustre [species]
-        Tellinidae [family]
+        Tellinidae [family] {VERN=nld:platschelp,eng:tellin clams}
           Angulus [genus]
           Macoma [genus]
-            Macoma balthica [species]
+            Macoma balthica [species] {VERN=nld:nonnetje,eng:Baltic tellin}
           Fabulina [genus]
             Fabulina fabula [species]           
-              =Tellina fabula [species]
+              =Tellina fabula [species] {VERN=nld:rechtgestreepte platschelp,eng:bean-like tellin}
               =Angulus fabula [species]
           Asbjornsenia [genus]
             Asbjornsenia pygmaea [species]           
-              =Tellina pusilla R. A. Philippi, 1836 [species]
+              =Tellina pusilla R. A. Philippi, 1836 [species] {VERN=nld:kleine platschelp,eng:little tellin}
               =Tellina pygmaea [species]
           Macomangulus [genus]
             Macomangulus tenuis [species]
-              =Tellina tenuis [species]
+              =Tellina tenuis [species] {VERN=nld:tere platschelp,eng:thin tellen}
               =Angulus tenuis [species]
         Veneridae [family]
           Callista [genus]
             Callista chione [species]
           Chamelea [genus]
-            Chamelea gallina [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp}
+            Chamelea gallina [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp,eng:striped venus}
               =Chamelea striatula [species]
           Dosinia [genus]
-            Dosinia exoleta [species] {VERN=nld:gewone artemisschelp}
+            Dosinia exoleta [species] {VERN=nld:gewone artemisschelp,eng:rayed artemis}
           Mercenaria [genus]
-            Mercenaria mercenaria [species]
+            Mercenaria mercenaria [species] {VERN=nld:amerikaanse venusschelp,eng:clam}
           Venerupis [genus]
             Venerupis corrugata [species] {VERN=nld:tapijtschelp}
               =Venerupis senegalensis [species]
-              =Venerupis pullastra [species]
+              =Venerupis pullastra [species] {VERN=nld:gewone tapijtschelp,eng:pullet carpet-shell}
           Venus [genus]
-            Venus verrucosa [species] {VERN=eng:warted venus shell}
-    Bryozoa [phylum]
+            Venus verrucosa [species] {VERN=eng:warted venus shell,nld:wrattige venusschelp,eng:warty venus}
+    Bryozoa [phylum] {VERN=nld:mosdiertjes}
       Plumatellida [order]
         Cristatellidae [family]
           Cristatella [genus]
-            Cristatella mucedo [species]
+            Cristatella mucedo [species] {VERN=nld:kruipend geleimosdiertje,eng:Cristatella}
     Cephalopoda [class]
       Sepiida [order]
         Sepiidae [family]
           Sepia [genus]
-            Sepia officinalis [species]
-    Gastropoda [class]
+            Sepia officinalis [species] {VERN=nld:zeekat}
+    Gastropoda [class] {VERN=nld:slakken,eng:gastropods}
       Archaeogastropoda [order]
         Haliotidae [family]
           Haliotis [genus]
-            Haliotis tuberculata [species] {VERN=nld:zee-oor,nld:gewone zeeoor}
+            Haliotis tuberculata [species] {VERN=nld:zee-oor,nld:gewone zeeoor,nld:zeeoor}
         Patellidae [family]
-          Patella [genus]
-            Patella athletica [species]
+          Patella [genus] {VERN=nld:schaalhoren,eng:limpet}
+            Patella athletica [species] {VERN=nld:ruwe schaalhoren}
               =Patella ulyssiponensis [species]
-            Patella depressa [species]
+            Patella depressa [species] {VERN=nld:gekleurde schaalhoren,eng:black-footed limpet}
               =Patella intermedia [species]
-            Patella vulgata [species]
+            Patella vulgata [species] {VERN=nld:schaalhoren,eng:common limpet}
         Trochidae [family]
           Calliostoma [genus]
-            Calliostoma zizyphinum [species] {VERN=nld:gewone priktolhoren}
-          Gibbula Risso, 1826 [genus]
-            Gibbula magus [species]
+            Calliostoma zizyphinum [species] {VERN=nld:gewone priktolhoren,nld:Priktolhoren}
+          Gibbula Risso, 1826 [genus] {VERN=nld:tolhoren}
+            Gibbula magus [species] {VERN=nld:geknobbelde tolhoren,eng:painted top-shell}
           Jujubinus [genus]
-            Jujubinus exasperatus [species]
+            Jujubinus exasperatus [species] {VERN=nld:gekielde kegeltolhoren}
           Steromphala J. E. Gray, 1847 [genus]
             Steromphala cineraria (Linnaeus, 1758)
-              =Gibbula cineraria [species]
+              =Gibbula cineraria [species] {VERN=nld:asgrauwe tolhoren}
             Steromphala pennanti (R. A. Philippi, 1851)
-              =Gibbula pennanti [species]
+              =Gibbula pennanti [species] {VERN=nld:gevlamde tolhoren,eng:pennant's top-shell}
             Steromphala tumida (Montagu, 1803) [species]
-              =Gibbula tumida [species]
+              =Gibbula tumida [species] {VERN=nld:gezwollen tolhoren,eng:swollen top-shell}
             Steromphala umbilicalis (da Costa, 1778)
-              =Gibbula umbilicalis [species]
+              =Gibbula umbilicalis [species] {VERN=nld:genavelde tolhoren,eng:flat top-shell}
       Architaenioglossa [order]
         Viviparidae [family]
-          Viviparus [genus]
-            Viviparus contectus [species]
-            Viviparus viviparus [species] {VERN=nld:stompe moerasslak,nld:riviermoerasslak}
+          Viviparus [genus] {VERN=nld:moerasslak,eng:river snails}
+            Viviparus contectus [species] {VERN=nld:spitse moerasslak}
+            Viviparus viviparus [species] {VERN=nld:stompe moerasslak,nld:riviermoerasslak,eng:river snail}
               =Viviparus lacustris [species]
       Basommatophora [order]
         Ellobiidae [family]
           Carychium [genus]
-            Carychium minimum [species]
-            Carychium tridentatum [species]
+            Carychium minimum [species] {VERN=nld:plompe dwergslak}
+            Carychium tridentatum [species] {VERN=nld:slanke dwergslak}
       Bullomorpha [order]
         Acteonidae [family]
           Acteon [genus]
-            Acteon tornatilis [species]
+            Acteon tornatilis [species] {VERN=nld:spoelhoren,eng:ataeon shell}
         Pyramidellidae [family]
           Chrysallida [genus]
           Odostomia [genus]
-            Odostomia unidentata [species]
+            Odostomia unidentata [species] {VERN=nld:breed tandhorentje}
           Brachystomia [genus]
-            Brachystomia scalaris [species]
+            Brachystomia scalaris [species] {VERN=nld:mosselslurpertje}
               =Odostomia scalaris (MacGillivray, 1843) [species]
         Retusidae [family]
           Retusa [genus]
-            Retusa obtusa [species]
+            Retusa obtusa [species] {VERN=nld:oubliehoren,eng:blunt bubble-shell}
       Ectobranchia [order]
         Valvatidae [family]
-          Valvata [genus]
-            Valvata cristata [species] {VERN=nld:platte pluimdrager,nld:kleine pluimdrager}
-            Valvata piscinalis [species]
+          Valvata [genus] {VERN=nld:pluimdrager}
+            Valvata cristata [species] {VERN=nld:platte pluimdrager,nld:kleine pluimdrager,nld:plattepluimdrager,eng:crested valve shell}
+            Valvata piscinalis [species] {VERN=nld:vijverpluimdrager}
       Heterogastropoda [order]
         Epitoniidae [family]
           Epitonium [genus]
-            Epitonium clathrus [species]
+            Epitonium clathrus [species] {VERN=nld:wenteltrap,eng:common wentletrap}
       Mesogastropoda [order]
         Aporrhaidae [family]
           Aporrhais [genus]
-            Aporrhais pespelecani [species]
+            Aporrhais pespelecani [species] {VERN=nld:pelikaansvoet,eng:pelican's-foot}
         Calyptraeidae [family]
           Calyptraea [genus]
-            Calyptraea chinensis [species]
+            Calyptraea chinensis [species] {VERN=nld:chinees hoedje,eng:cup-and-saucer limpet}
           Crepidula [genus]
-            Crepidula fornicata [species] {VERN=eng:boat shell}
+            Crepidula fornicata [species] {VERN=eng:boat shell,nld:muiltje,eng:American slipper limpet}
         Cerithiidae [family]
           Bittium [genus]
-            Bittium reticulatum [species] {VERN=nld:priemhorentje}
+            Bittium reticulatum [species] {VERN=nld:priemhorentje,nld:muizenkeutel,eng:small needle-whelk}
         Lamellariidae [family]
           Velutina [genus]
-            Velutina velutina [species]
+            Velutina velutina [species] {VERN=nld:gewone fluweelhoren,eng:velvet-shell}
         Littorinidae [family]
-          Littorina [genus]
-            Littorina littorea [species] {VERN=eng:common periwinkle}
-            Littorina obtusata [species] {VERN=eng:dwarf winkle}
-            Littorina saxatilis [species] {VERN=eng:rough winkle}
+          Littorina [genus] {VERN=nld:alikruik,eng:periwinkle}
+            Littorina littorea [species] {VERN=eng:common periwinkle,nld:gewone alikruik,eng:periwinkle}
+            Littorina obtusata [species] {VERN=eng:dwarf winkle,nld:stompe alikruik,eng:smooth periwinkle}
+            Littorina saxatilis [species] {VERN=eng:rough winkle,nld:ruwe alikruik,eng:rough periwinkle}
               =Littorina tenebrosa [species]
         Naticidae [family]
           Euspira Agassiz, 1837 [genus]
-            Euspira catena [species] {VERN=nld:grote tepelhoren}
+            Euspira catena [species] {VERN=nld:grote tepelhoren,nld:gewone tepelhoren,eng:large necklace-shell}
               =Natica catena [species]
-            Euspira nitida [species]
+            Euspira nitida [species] {VERN=nld:glanzende tepelhoren,eng:common necklace-shell}
               =Euspira poliana [species]
           Policines [genus]
         Pomatiasidae [family]
@@ -2119,141 +2119,141 @@ Animalia [kingdom]
             Pomatias elegans (O. F. Müller, 1774) [species] {VERN=nld:geruite rondmondhoren}
         Rissoellidae [family]
           Rissoella [genus]
-            Rissoella diaphana [species]
+            Rissoella diaphana [species] {VERN=nld:gewone dropslak}
               =Rissoa diaphana [species]
         Rissoidae [family]
           Rissoa [genus]
-            Rissoa membranacea [species]
+            Rissoa membranacea [species] {VERN=nld:vliezig drijfhorentje,eng:thick-lipped spire-shell}
         Triviidae [family]
           Trivia [genus]
-            Trivia arctica [species]
-            Trivia monacha [species] {VERN=nld:gevlekte ribkaurie,nld:gevlekt koffieboontje}
+            Trivia arctica [species] {VERN=nld:ongevlekt koffieboontje,eng:nothern cowrie}
+            Trivia monacha [species] {VERN=nld:gevlekte ribkaurie,nld:gevlekt koffieboontje,eng:spotted cowrie}
         Turritellidae [family]
           Turritella Lamarck, 1799 [genus]
-            Turritella communis [species]
+            Turritella communis [species] {VERN=nld:penhoren,eng:auger}
       Neogastropoda [order]
         Buccinidae [family]
           Buccinum [genus]
-            Buccinum undatum [species]
+            Buccinum undatum [species] {VERN=nld:wulk,eng:common whelk}
           Colus [genus]
-            Colus gracilis [species]
+            Colus gracilis [species] {VERN=nld:slanke noordhoren,eng:slender spindle-shell}
           Neptunea [genus]
-            Neptunea antiqua [species] {VERN=nld:gewone noordhoren}
+            Neptunea antiqua [species] {VERN=nld:gewone noordhoren,nld:noordhoren,eng:red whelk}
         Conidae [family]
           Conus [genus]
             Conus mediterraneus [species]
               =Conus ventricosus [species]
-            Conus marmoreus [species]
+            Conus marmoreus [species] {VERN=nld:Conus marmoreus,eng:marbled cone}
         Muricidae [family]
           Chicoreus [genus]
             Chicoreus ramosus [species]
           Bolinus [genus]
             Bolinus brandaris [species]
           Ocenebra [genus]
-            Ocenebra erinaceus [species]
+            Ocenebra erinaceus [species] {VERN=nld:stekelhoren,eng:sting-winkle}
               =Ocenebra erinacea [species]
         Nassariidae [family]
-          Nassarius [genus]
-            Nassarius incrassatus [species]
-            Nassarius pygmaeus [species]
-            Nassarius reticulatus [species]
+          Nassarius [genus] {VERN=nld:fuikhoren}
+            Nassarius incrassatus [species] {VERN=nld:verdikte fuikhoren,eng:thick-lipped dog-whelk}
+            Nassarius pygmaeus [species] {VERN=nld:kleine fuikhoren,eng:dwarf dog-whelk}
+            Nassarius reticulatus [species] {VERN=nld:gevlochten fuikhoren,eng:netted dog-whelk}
         Thaididae [family]
           Thais [genus]
-            Thais lapillus [species]
+            Thais lapillus [species] {VERN=nld:purperslak}
               =Nucella lapillus [species]
         Turridae [family]
           Oenopota [genus]
-            Oenopota turricula [species] {VERN=nld:trapgevel}
+            Oenopota turricula [species] {VERN=nld:trapgevel,nld:gewone trapgevel}
               =Propebela turricula [species]
       Neotaenioglossa [order]
         Assimineidae [family]
           Assiminea [genus]
-            Assiminea grayana [species] {VERN=nld:Gray's kustslak}
+            Assiminea grayana [species] {VERN=nld:Gray's kustslak,eng:dun sentinel}
         Bithyniidae [family]
-          Bithynia [genus]
-            Bithynia leachii [species]
-            Bithynia tentaculata [species]
-        Cypraeidae [family]
+          Bithynia [genus] {VERN=nld:diepslak}
+            Bithynia leachii [species] {VERN=nld:kleine diepslak}
+            Bithynia tentaculata [species] {VERN=nld:grote diepslak,eng:common bithynia}
+        Cypraeidae [family] {VERN=nld:kauri schelpen,eng:cowries}
           Cypraea [genus]
-            Cypraea pantherina [species]
-            Cypraea tigris [species]
-            Cypraea annulus [species]
-            Cypraea moneta [species]
+            Cypraea pantherina [species] {VERN=nld:panter slak}
+            Cypraea tigris [species] {VERN=nld:tijgerkauri,eng:tiger cowry}
+            Cypraea annulus [species] {VERN=nld:ringkauri,eng:ring cowrie}
+            Cypraea moneta [species] {VERN=nld:geldkauri}
               =Monetaria moneta [species]
         Hydrobiidae [family]
           Mercuria [genus]
-            Mercuria confusa [species]
+            Mercuria confusa [species] {VERN=nld:getijdeslak}
               =Mercuria anatina [species]
           Peringia [genus]
-            Peringia ulvae [species]
-              =Hydrobia ulvae [species]
+            Peringia ulvae [species] {VERN=nld:wadslakje}
+              =Hydrobia ulvae [species] {VERN=nld:wadslakje}
           Hydrobia [genus]
-            Hydrobia stagnarum [species]
-            Hydrobia ventrosa [species]
+            Hydrobia stagnarum [species] {VERN=nld:opgezwollen wadslakje}
+            Hydrobia ventrosa [species] {VERN=nld:opgezwollen brakwaterhoren}
               =Ecrobia ventrosa [species]
       Neritaemorphi [order]
         Neritidae [family]
           Theodoxus [genus]
-            Theodoxus fluviatilis [species]
+            Theodoxus fluviatilis [species] {VERN=nld:zoerwaterneriet,eng:freshwater nerite}
       Pulmonata [order]
         Acroloxidae [family]
           Acroloxus [genus]
-            Acroloxus lacustris [species] {VERN=nld:kapslakje}
+            Acroloxus lacustris [species] {VERN=nld:kapslakje,nld:kapslak}
         Agriolimacidae [family]
         Lymnaeidae [family]
           Galba [genus]
-            Galba truncatula [species]
-          Lymnaea [genus]
-            Lymnaea stagnalis [species] {VERN=nld:grote poelslak}
-          Radix [genus]
-            Radix auricularia [species]
-            Radix ovata [species]
+            Galba truncatula [species] {VERN=nld:leverbotslak,eng:dwarf pond snail}
+          Lymnaea [genus] {VERN=nld:poelslak}
+            Lymnaea stagnalis [species] {VERN=nld:grote poelslak,nld:gewone poelslak,eng:great pond snail}
+          Radix [genus] {VERN=nld:poelslak}
+            Radix auricularia [species] {VERN=nld:oorvormige poelslak,eng:eared pond snail}
+            Radix ovata [species] {VERN=nld:ovale poelslak}
               =Radix balthica [species]
             Radix labiata [species]
-              =Radix peregra [species]
+              =Radix peregra [species] {VERN=nld:begroeide poelslak,eng:wandering pond snail}
           Stagnicola Jeffreys, 1830 [genus]
-            Stagnicola palustris [species]
+            Stagnicola palustris [species] {VERN=nld:moeraspoelslak,eng:marsh snail}
               =Lymnaea palustris [species]
         Physidae [family]
           Aplexa [genus]
-            Aplexa hypnorum [species]
+            Aplexa hypnorum [species] {VERN=nld:slaapslakje}
           Physa [genus]
-            Physa fontinalis [species] {VERN=nld:bronblaashorenslak}
+            Physa fontinalis [species] {VERN=nld:bronblaashorenslak,nld:bronblaashoren,eng:bladder snail}
           Physella Haldeman, 1842 [genus]
-            Physella acuta [species]
-        Planorbidae [family]
-          Anisus [genus]
-            Anisus leucostoma [species]
-            Anisus vortex [species] {VERN=nld:platte posthoren}
-            Anisus vorticulus [species]
+            Physella acuta [species] {VERN=nld:puntige blaashoren}
+        Planorbidae [family] {VERN=nld:schijfhorenslakken}
+          Anisus [genus] {VERN=nld:horenslak}
+            Anisus leucostoma [species] {VERN=nld:geronde schijfhoren}
+            Anisus vortex [species] {VERN=nld:platte posthoren,nld:draaikolkschijfhoren,eng:whirlpool ramshorn}
+            Anisus vorticulus [species] {VERN=nld:platte schijfhoren}
           Bathyomphalus [genus]
-            Bathyomphalus contortus [species]
+            Bathyomphalus contortus [species] {VERN=nld:riempje,eng:twisted ramshorn}
           Gyraulus [genus]
-            Gyraulus albus [species]
-            Gyraulus crista [species]
+            Gyraulus albus [species] {VERN=nld:witte schijfhoren,eng:white ramshorn}
+            Gyraulus crista [species] {VERN=nld:tractorwieltje}
               =Anisus crista [species]
           Hippeutis [genus]
-            Hippeutis complanatus [species]
+            Hippeutis complanatus [species] {VERN=nld:vlakke schijfhoren,eng:flat ramshorn}
           Planorbarius [genus]
-            Planorbarius corneus [species]
+            Planorbarius corneus [species] {VERN=nld:posthorenslak,eng:great ramshorn}
               =Planorbis corneus (Linnaeus, 1758) [species]
           Planorbis [genus]
-            Planorbis carinatus [species]
-            Planorbis planorbis [species]
+            Planorbis carinatus [species] {VERN=nld:gekielde schijfhoren,eng:keeled ramshorn snail}
+            Planorbis planorbis [species] {VERN=nld:gewone schijfhoren,eng:ramshorn}
           Segmentina [genus]
-            Segmentina nitida [species]
+            Segmentina nitida [species] {VERN=nld:glanzende schijfhoren}
       Stylommatophora [order]
         Bradybaenidae [family]
           Bradybaena [genus]
-            Bradybaena fruticum [species] {VERN=nld:struikslak}
+            Bradybaena fruticum [species] {VERN=nld:struikslak,nld:gewone struikslak,eng:bush snail}
               =Fruticicola fruticum [species]
         Clausiliidae [family]
           Alinda [genus]
             Alinda biplicata [species] {VERN=nld:grote clausilia}
           Balea [genus]
-            Balea perversa [species] {VERN=nld:slanke schorshoren}
-          Clausilia [genus]
-            Clausilia dubia [species]
+            Balea perversa [species] {VERN=nld:slanke schorshoren,nld:schorshoren,eng:tree snail}
+          Clausilia [genus] {VERN=nld:regenslak}
+            Clausilia dubia [species] {VERN=nld:knotwilgslakje}
             Clausilia nigricans [species] {VERN=nld:vale clausilia}
               =Clausilia bidentata [species]
             Clausilia parvula [species] {VERN=nld:kleine clausilia}
@@ -2264,124 +2264,124 @@ Animalia [kingdom]
             Cochlodina laminata [species] {VERN=nld:gladde clausilia}
         Cochlicopidae [family]
           Cochlicopa A. Férussac, 1821 [genus]
-            Cochlicopa lubrica [species]
+            Cochlicopa lubrica [species] {VERN=nld:glanzende agaathoren,eng:slippery snail}
         Endodontidae [family]
           Discus [genus]
-            Discus rotundatus [species]
+            Discus rotundatus [species] {VERN=nld:boerenknoopje,eng:rounded snail}
         Enidae [family]
           Ena [genus]
-            Ena montana [species]
-            Ena obscura [species]
+            Ena montana [species] {VERN=nld:grote torenslak}
+            Ena obscura [species] {VERN=nld:donkere torenslak,eng:lesse bullin}
               =Merdigera obscura [species]
         Ferussaciidae [family]
           Cecilioides [genus]
-            Cecilioides acicula [species]
+            Cecilioides acicula [species] {VERN=nld:blindslakje,eng:blind snail}
         Helicarionidae [family]
           Euconulus [genus]
-            Euconulus fulvus [species] {VERN=nld:tolslakje}
+            Euconulus fulvus [species] {VERN=nld:tolslakje,nld:gladde tolslak,eng:tawny glass snail}
         Helicidae [family]
           Arianta [genus]
-            Arianta arbustorum [species]
+            Arianta arbustorum [species] {VERN=nld:heesterslak}
               =Helicigona arbustorum [species]
-          Cepaea [genus]
-            Cepaea hortensis [species] {VERN=nld:gewone tuinslak}
-            Cepaea nemoralis [species] {VERN=nld:wilde tuinslak,nld:witgerande tuinslak}
+          Cepaea [genus] {VERN=nld:tuinslak}
+            Cepaea hortensis [species] {VERN=nld:gewone tuinslak,nld:witgerande tuinslak,eng:white-lipped snail}
+            Cepaea nemoralis [species] {VERN=nld:wilde tuinslak,nld:witgerande tuinslak,nld:gewone tuinslak,eng:brown-lipped snail}
           Helicella [genus]
-            Helicella gigaxii [species]
+            Helicella gigaxii [species] {VERN=nld:fijngeribde grasslak,eng:eccentric snail}
               =Candidula gigaxii [species]
-            Helicella intersecta [species]
+            Helicella intersecta [species] {VERN=nld:grofgeribde grasslak,eng:wrinkled snail}
               =Candidula intersecta [species]
-            Helicella itala [species]
+            Helicella itala [species] {VERN=nld:heideslak,eng:heath snail}
               =Helicella ericetorum [species]
-            Helicella virgata [species]
+            Helicella virgata [species] {VERN=nld:bolle duinslak,eng:banded snail}
               =Cernuella virgata [species]
           Helicigona [genus]
-            Helicigona lapicida [species] {VERN=nld:steenslak}
+            Helicigona lapicida [species] {VERN=nld:steenslak,nld:steenbikker}
           Helicodonta [genus]
-            Helicodonta obvoluta [species]
-          Helix [genus]
-            Helix aspersa [species]
+            Helicodonta obvoluta [species] {VERN=nld:opgerolde tandslak,eng:cheese snail}
+          Helix [genus] {VERN=nld:wijngaardslak,nld:segrijnslak}
+            Helix aspersa [species] {VERN=nld:segrijnslak}
               =Cornu aspersum [species]
-            Helix pomatia [species]
+            Helix pomatia [species] {VERN=nld:wijngaardslak,eng:edible snail}
           Perforatella [genus]
-            Perforatella incarnata [species]
+            Perforatella incarnata [species] {VERN=nld:bosloofslak}
               =Monachoides incarnatus [species]
           Pseudotrichia Schileyko, 1970 [genus]
-            Pseudotrichia rubiginosa [species]
+            Pseudotrichia rubiginosa [species] {VERN=nld:oeverloofslak}
           Trochulus [genus]
             Trochulus hispidus [species] {VERN=nld:gewone haarslak,nld:haarslak}
-              =Trichia hispida [species] 
+              =Trichia hispida [species] {VERN=nld:gewone haarslak,eng:hairy snail} 
         Limacidae [family]
         Punctidae [family]
           Punctum [genus]
-            Punctum pygmaeum [species]
+            Punctum pygmaeum [species] {VERN=nld:dwergpuntje}
         Pupillidae [family]
           Lauria [genus]
-            Lauria cylindracea [species]
+            Lauria cylindracea [species] {VERN=nld:genaveld tonnetje,eng:chrysalis snail}
           Pupilla [genus]
-            Pupilla muscorum [species]
+            Pupilla muscorum [species] {VERN=nld:mostonnetje,eng:moss snail}
         Succineidae [family]
           Oxyloma [genus]
-            Oxyloma elegans [species]
+            Oxyloma elegans [species] {VERN=nld:slanke barnsteenslak,eng:pfeiffer's amber snail}
               =Succinea elegans Risso, 1826 [species]
-          Succinea [genus]
-            Succinea putris [species]
-            Succinea sarsii [species]
+          Succinea [genus] {VERN=nld:barnsteenslak}
+            Succinea putris [species] {VERN=nld:gewone barnsteenslak,eng:amber snail}
+            Succinea sarsii [species] {VERN=nld:tweelingbarnsteenslak}
               =Oxyloma sarsii [species]
           Succinella [genus]
-            Succinella oblonga [species]
+            Succinella oblonga [species] {VERN=nld:langwerpige barnsteenslak}
         Valloniidae [family]
           Acanthinula [genus]
-            Acanthinula aculeata [species]
-          Vallonia [genus]
-            Vallonia costata [species]
-            Vallonia excentrica [species]
-            Vallonia pulchella [species]
+            Acanthinula aculeata [species] {VERN=nld:stekelslak,eng:prickly snail}
+          Vallonia [genus] {VERN=nld:jachthorenslak}
+            Vallonia costata [species] {VERN=nld:geribde jachthoornslak,eng:ribbed grass snail}
+            Vallonia excentrica [species] {VERN=nld:scheve jachthoornslak}
+            Vallonia pulchella [species] {VERN=nld:fraaie jachthoornslak}
         Vertiginidae [family]
-          Columella [genus]
-            Columella edentula [species]
+          Columella [genus] {VERN=nld:korfslak}
+            Columella edentula [species] {VERN=nld:tandloze korfslak}
           Vertigo [genus]
-            Vertigo angustior [species]
-            Vertigo antivertigo [species]
-            Vertigo pygmaea [species]
+            Vertigo angustior [species] {VERN=nld:nauwe korfslak}
+            Vertigo antivertigo [species] {VERN=nld:dikke korfslak}
+            Vertigo pygmaea [species] {VERN=nld:dwergkorfslak}
         Vitrinidae [family]
           Aegopinella [genus]
-            Aegopinella nitidula [species]
-          Vitrina [genus]
-            Vitrina pellucida [species]
+            Aegopinella nitidula [species] {VERN=nld:bruine blindslak,eng:waxy glass snail}
+          Vitrina [genus] {VERN=nld:glasslak}
+            Vitrina pellucida [species] {VERN=nld:doorschijnende glasslak}
         Zonitidae [family]
           Nesovitrea [genus]
-            Nesovitrea hammonis [species]
+            Nesovitrea hammonis [species] {VERN=nld:ammonshorentje,eng:rayed glass snail}
           Oxychilus [genus]
-            Oxychilus alliarius [species] {VERN=nld:lookslakje}
-            Oxychilus cellarius [species]
-            Oxychilus draparnaldi [species]
+            Oxychilus alliarius [species] {VERN=nld:lookslakje,nld:lookglansslak,eng:glossy glass snail}
+            Oxychilus cellarius [species] {VERN=nld:kelderglansslak,eng:cellar glass snail}
+            Oxychilus draparnaldi [species] {VERN=nld:grote glansslak}
               =Oxychilus draparnaudi [species]
-            Oxychilus helveticus [species]
+            Oxychilus helveticus [species] {VERN=nld:zwitserse glansslak}
               =Oxychilus navarricus [species]
           Vitrea [genus]
-            Vitrea crystallina [species]
+            Vitrea crystallina [species] {VERN=nld:gewone kristalslak}
           Zonitoides [genus]
-            Zonitoides excavatus [species] {VERN=nld:grofgesteepte glansslak}
-            Zonitoides nitidus [species] {VERN=nld:donkere glimslak}
+            Zonitoides excavatus [species] {VERN=nld:grofgesteepte glansslak,nld:grofgestreepte glimslak,eng:hollowed glas snail}
+            Zonitoides nitidus [species] {VERN=nld:donkere glimslak,nld:donkere glansslak,eng:shiny glass snail}
       Chitonida [order]
         Tonicellidae [family]
           Lepidochitona [genus]
-            Lepidochitona cinerea [species]
+            Lepidochitona cinerea [species] {VERN=nld:Asgrauwe keverslak,eng:common chiton,eng:grey chiton}
     Scaphopoda [class]
       Dentaliida [order]
         Dentaliidae [family]
-          Dentalium [genus]
+          Dentalium [genus] {VERN=nld:olifantstand,eng:tooth shell}
             Dentalium entale [species] {VERN=nld:gladde olifantstand,nld:stoottand}
               =Antalis entalis [species]
-            Dentalium vulgare [species]
+            Dentalium vulgare [species] {VERN=nld:zwakgeribde olifantstand,eng:grooved tusk-shell}
               =Antalis vulgaris [species]
-  Nematoda [phylum]
+  Nematoda [phylum] {VERN=nld:draadwormen}
     Adenophorea [class]
       Enoplida [order]
         Trichuridae [family]
           Trichuris [genus]
-            Trichuris trichiura [species]
+            Trichuris trichiura [species] {VERN=nld:zweepworm,eng:whipworm}
     Secernentea [class]
       Ascaridida [order]
         Ascarididae [family]
@@ -2393,12 +2393,12 @@ Animalia [kingdom]
         Diphyllobothriidae [family]
           Diphyllobothrium [genus]
             Diphyllobothrium latum [species]
-  Porifera [phylum]
+  Porifera [phylum] {VERN=nld:sponsen,eng:sponges}
     Demospongiae [class]
       Hadromerida [order]
         Clionidae [family]
           Cliona [genus]
-            Cliona celata [species]
+            Cliona celata [species] {VERN=nld:boorspons}
       Haplosclerida [order]
         Spongillidae [family]
           Spongilla [genus]
