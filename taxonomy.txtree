@@ -3,9 +3,9 @@ Animalia [kingdom]
     Hirudinea [class] {VERN=nld:bloedzuigers,eng:leeches}
     Polychaeta [class] {VERN=nld:mariene borstelwormen,eng:marine bristle worms}
       Phyllodocida [order]
-        Nereididae family]
-          Nereis [genus
-            == Eunereis [unranked]
+        Nereididae [family]
+          Nereis [genus]
+            = Eunereis [unranked]
       Sabellida [order]
         Serpulidae [family]
           Pomatoceros [genus]
