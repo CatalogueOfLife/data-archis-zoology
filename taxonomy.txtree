@@ -276,7 +276,7 @@ Animalia [kingdom]
             Hydrozetes lemnae [species]
             Hydrozetes thienemanni [species]
         Hypochthoniidae [family]
-          Hypochthonius [genus]
+          Hypochthonius Koch, 1835 [genus]
             Hypochthonius rufulus [species]
               =Hypochtonius rufulus [species]
         Liacaridae [family]
@@ -436,7 +436,7 @@ Animalia [kingdom]
     Insecta [class] {VERN=nld:insecten,eng:insects}
       Anoplura [order] {VERN=nld:luizen,eng:lice}
         Pediculidae [family]
-          Pediculus [genus]
+          Pediculus Linnaeus, 1758 [genus]
             Pediculus humanus [species] {VERN=nld:mensenluis,nld:hoofdluis}
       Coleoptera [order] {VERN=nld:kevers,eng:beetles}
         Anobiidae [family] {VERN=nld:klopkevers}
@@ -706,7 +706,7 @@ Animalia [kingdom]
           Aphodius [genus]
             Aphodius fimetarius [species] {VERN=nld:roodschildveldmestkever}
             Liothorax plagiatus (Linnaeus, 1767) [species]
-              =Aphodius plagiatus [species]
+              =Aphodius plagiatus (Linnaeus, 1767) [species]
           Onthophagus [genus]
             Onthophagus nuchicornis [species] {VERN=nld:rechthoornpillendraaier}
           Oxyomus [genus]
@@ -1771,7 +1771,7 @@ Animalia [kingdom]
           Lacerta [genus]
             Lacerta agilis [species] {VERN=nld:duinhagedis,nld:heihagedis,nld:zandhagedis,eng:sand lizard}
             Podarcis muralis (Laurenti, 1768) [species]
-              =Lacerta muralis [species] {VERN=nld:muurhagedis,eng:common wall lizard}
+              =Lacerta muralis (Laurenti, 1768) [species] {VERN=nld:muurhagedis,eng:common wall lizard}
             Lacerta vivipara [species] {VERN=nld:kleine hagedis,nld:levendbarende hagedis,eng:viviparous lizard}
               =Zootoca vivipara [species]
         Viperidae [family]
@@ -1888,7 +1888,6 @@ Animalia [kingdom]
           Lima [genus]
             Limaria loscombi (G. B. Sowerby I, 1823)
               =Lima loscombi G. B. Sowerby I, 1823 [species] {VERN=nld:scheve vijlschelp}
-              =Limea loscombii [species]
       Unionoida [order]
         Margaritiferidae [family]
           Pseudunio [genus]
@@ -2239,7 +2238,7 @@ Animalia [kingdom]
           Planorbarius [genus]
             Planorbarius corneus [species] {VERN=nld:posthorenslak,eng:great ramshorn}
               =Planorbis corneus (Linnaeus, 1758) [species]
-          Planorbis [genus]
+          Planorbis Müller, 1773 [genus]
             Planorbis carinatus [species] {VERN=nld:gekielde schijfhoren,eng:keeled ramshorn snail}
             Planorbis planorbis [species] {VERN=nld:gewone schijfhoren,eng:ramshorn}
           Segmentina [genus]
