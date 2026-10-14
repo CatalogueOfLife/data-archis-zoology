@@ -2015,11 +2015,6 @@ Animalia [kingdom]
               =Venerupis pullastra [species] {VERN=nld:gewone tapijtschelp,eng:pullet carpet-shell}
           Venus [genus]
             Venus verrucosa [species] {VERN=eng:warted venus shell,nld:wrattige venusschelp,eng:warty venus}
-    Bryozoa [phylum] {VERN=nld:mosdiertjes}
-      Plumatellida [order]
-        Cristatellidae [family]
-          Cristatella [genus]
-            Cristatella mucedo [species] {VERN=nld:kruipend geleimosdiertje,eng:Cristatella}
     Cephalopoda [class]
       Sepiida [order]
         Sepiidae [family]
@@ -2377,6 +2372,12 @@ Animalia [kingdom]
               =Antalis entalis [species]
             Dentalium vulgare [species] {VERN=nld:zwakgeribde olifantstand,eng:grooved tusk-shell}
               =Antalis vulgaris [species]
+  Bryozoa [phylum] {VERN=nld:mosdiertjes}
+    Phylactolaemata [class]
+      Plumatellida [order]
+        Cristatellidae [family]
+          Cristatella [genus]
+            Cristatella mucedo [species] {VERN=nld:kruipend geleimosdiertje,eng:Cristatella}
   Nematoda [phylum] {VERN=nld:draadwormen}
     Adenophorea [class]
       Enoplida [order]
