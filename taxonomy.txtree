@@ -1815,7 +1815,6 @@ Animalia [kingdom]
             Conopeum reticulum (Linnaeus, 1767) [species] {VERN=nld:zeekantwerk}
           Electra [genus]
             Electra pilosa [species] {VERN=nld:harig mosdiertje}
-  Foraminifera [class] {VERN=nld:Foraminifera,eng:Foraminifera}
   Mollusca [phylum] {VERN=nld:weekdieren,eng:molluscs}
     Bivalvia [class] {VERN=nld:tweekleppigen,eng:bivalves}
       Arcoida [order]
