@@ -926,9 +926,10 @@ Animalia [kingdom]
             Leuciscus idus [species] {VERN=nld:winde,eng:orfe}
             Leuciscus leuciscus [species] {VERN=nld:serpeling,eng:dace}
           Abramis [genus]
-            Abramis bjoerkna [species] {VERN=nld:kolblei,eng:white bream}
-              =Blicca bjoerkna [species]
             Abramis brama [species] {VERN=nld:brasem,eng:bream}
+          Blicca [genus]
+            Blicca bjoerkna [species] {VERN=nld:kolblei,eng:white bream}
+              =Abramis bjoerkna [species]
           Alburnus [genus]
             Alburnus alburnus [species] {VERN=nld:alver,eng:bleak}
           Aspius [genus]
@@ -2051,8 +2052,8 @@ Animalia [kingdom]
         Viviparidae [family]
           Viviparus [genus] {VERN=nld:moerasslak,eng:river snails}
             Viviparus contectus [species] {VERN=nld:spitse moerasslak}
-            Viviparus viviparus [species] {VERN=nld:stompe moerasslak,nld:riviermoerasslak,eng:river snail}
               =Viviparus lacustris [species]
+            Viviparus viviparus [species] {VERN=nld:stompe moerasslak,nld:riviermoerasslak,eng:river snail}
       Basommatophora [order]
         Ellobiidae [family]
           Carychium [genus]
