@@ -139,11 +139,12 @@ Animalia [kingdom]
         Achipteriidae [family]
           Achipteria [genus]
             Achipteria coleoptrata [species]
+          Campachipteria [genus]
+            Campachipteria (Triachipteria) fanzagoi (Jacot, 1929) [species]
+              =Parachipteria willmanni Hammen, 1952 [species]
           Parachipteria [genus]
             Parachipteria petiti [species]
             Parachipteria punctata [species]
-            Campachipteria (Triachipteria) fanzagoi (Jacot, 1929) [species]
-              =Parachipteria willmanni Hammen, 1952 [species]
           Anachipteria [genus]
             Anachipteria latitecta [species]
         Ameronothridae [family]
@@ -450,7 +451,7 @@ Animalia [kingdom]
             Anthicus gracilis [species]
               =Cordicollis gracilis [species]
         Anthribidae [family] {VERN=nld:boksnuitkevers,eng:fungus weevils}
-          Brachytarsus [genus]
+          Anthribus Geoffroy, E.L., 1762 [genus]
             Anthribus nebulosus Forster, J.R., 1770 [species]
               =Brachytarsus nebulosus Kuester, 1850 [species]
         Apionidae [family]
@@ -471,8 +472,6 @@ Animalia [kingdom]
             Acupalpus brunnipes [species]
           Agonum [genus]
             Agonum muelleri [species] {VERN=nld:Müller's pronkloopkever}
-            Paranchus albipes (Fabricius, 1796) [species]
-              =Agonum ruficorne (Goetze, 1777) [species] {VERN=nld:oeversnelloper}
             Agonum thoreyi [species]
           Amara [genus] {VERN=nld:glansloopkevers,eng:sun beetles}
             Amara aenea [species] {VERN=nld:bronskleurige glansloopkever,eng:common sun beetle}
@@ -523,6 +522,9 @@ Animalia [kingdom]
             Notiophilus biguttatus [species] {VERN=nld:tweevlekkige snelkever}
           Oodes [genus]
             Oodes helopioides [species]
+          Paranchus [genus]
+            Paranchus albipes (Fabricius, 1796) [species] {VERN=nld:oeversnelloper}
+              =Agonum ruficorne (Goetze, 1777) [species]
           Patrobus [genus]
             Patrobus atrorufus [species]
           Poecilus Bonelli, 1810 [genus]
@@ -591,7 +593,7 @@ Animalia [kingdom]
             Notaris scirpi [species]
           Otiorhynchus [genus]
             Otiorhynchus sulcatus [species] {VERN=nld:gegroefde lapsnuitkever,eng:black vine weevil}
-          Rhyncolus [genus]
+          Phloeophagus [genus]
             Phloeophagus lignarius (Marsham, T., 1802) [species]
               =Rhyncolus lignarius [species]
           Sitona [genus]
@@ -623,6 +625,7 @@ Animalia [kingdom]
             Acritus nigricornis [species]
           Hister [genus]
             Hister bissexstriatus [species]
+          Margarinotus [genus]
             Margarinotus (Ptomister) brunneus (Fabricius, 1775) [species]
               =Hister impressus Fabricius 1798 [species] {VERN=nld:aasplompkever}
             Margarinotus (Ptomister) merdarius (Hoffmann, 1803) [species]
@@ -705,6 +708,7 @@ Animalia [kingdom]
         Scarabaeidae [family] {VERN=nld:bladsprietkevers,eng:scarabs}
           Aphodius [genus]
             Aphodius fimetarius [species] {VERN=nld:roodschildveldmestkever}
+          Liothorax Motschulsky, 1859 [genus]
             Liothorax plagiatus (Linnaeus, 1767) [species]
               =Aphodius plagiatus (Linnaeus, 1767) [species]
           Onthophagus [genus]
@@ -1771,10 +1775,11 @@ Animalia [kingdom]
         Lacertidae [family]
           Lacerta [genus]
             Lacerta agilis [species] {VERN=nld:duinhagedis,nld:heihagedis,nld:zandhagedis,eng:sand lizard}
-            Podarcis muralis (Laurenti, 1768) [species]
-              =Lacerta muralis (Laurenti, 1768) [species] {VERN=nld:muurhagedis,eng:common wall lizard}
             Lacerta vivipara [species] {VERN=nld:kleine hagedis,nld:levendbarende hagedis,eng:viviparous lizard}
               =Zootoca vivipara [species]
+          Podarcis [genus]
+            Podarcis muralis (Laurenti, 1768) [species]
+              =Lacerta muralis (Laurenti, 1768) [species] {VERN=nld:muurhagedis,eng:common wall lizard}
         Viperidae [family]
           Vipera Laurenti, 1768 [genus]
             Vipera berus [species] {VERN=nld:adder,eng:adder}
