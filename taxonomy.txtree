@@ -1825,8 +1825,8 @@ Animalia [kingdom]
       Myoida [order]
         Hiatellidae [family]
           Hiatella Bosc, 1801 [genus]
-            Hiatella striata [species] {VERN=nld:noordse rotsboorder,eng:Norwegian rock-borer}
-              =Hiatella arctica [species]
+            Hiatella arctica [species] {VERN=nld:noordse rotsboorder,eng:Norwegian rock-borer}
+              =Hiatella striata [species]
         Myidae [family]
           Mya [genus] {VERN=nld:gaper}
             Mya arenaria [species] {VERN=eng:cockle brillon,nld:gortschelp,nld:grote strandgaper,eng:sand gaper,nld:strandgaper,eng:soft-shelled clam}
@@ -1863,18 +1863,19 @@ Animalia [kingdom]
             Crassostrea gigas [species] {VERN=nld:Japanse oester,eng:Japanese oyster}
       Pectinoida [order]
         Pectinidae [family]
+          Aequipecten [genus] {VERN=nld:mantelschelpen,eng:scallop}
+            Aequipecten opercularis [species] {VERN=nld:wijde mantel,eng:quin}
+              =Chlamys opercularis [species]
+          Mimachlamys [genus]
+            Mimachlamys varia [species] {VERN=nld:bonte mantel,eng:variegated scallop}
+              =Chlamys varia [species]
           Pecten [genus]
             Pecten jacobaeus [species] {VERN=nld:Mediterrane Sint-Jakobsschelp,eng:scallop,eng:clam}
             Pecten maximus [species] {VERN=nld:Sint-Jacobsschelp,eng:giant scallop}
-          Chlamys [genus] {VERN=nld:mantelschelpen,eng:scallop}
-            Chlamys opercularis [species] {VERN=nld:wijde mantel,eng:quin}
-              =Aequipecten opercularis [species]
-            Chlamys varia [species] {VERN=nld:bonte mantel,eng:variegated scallop}
-              =Mimachlamys varia [species]
         Petricolidae [family]
-          Petricola [genus]
-            Petricola pholadiformis [species] {VERN=nld:amerikaanse boormossel}
-              =Petricolaria pholadiformis [species]
+          Petricolaria [genus]
+            Petricolaria pholadiformis [species] {VERN=nld:amerikaanse boormossel}
+              =Petricola pholadiformis [species]
       Pholadomyoida [order]
         Thraciidae [family]
           Thracia [genus]
@@ -1885,7 +1886,7 @@ Animalia [kingdom]
           Anomia [genus]
             Anomia ephippium [species] {VERN=nld:paardezadel,eng:saddle oyster}
         Limidae [family]
-          Lima [genus]
+          Limaria [genus]
             Limaria loscombi (G. B. Sowerby I, 1823)
               =Lima loscombi G. B. Sowerby I, 1823 [species] {VERN=nld:scheve vijlschelp}
       Unionoida [order]
@@ -1894,8 +1895,8 @@ Animalia [kingdom]
             Pseudunio auricularia [species] {VERN=nld:rivierparelmossel,eng:Spengler's freshwater mussel}
         Unionidae [family]
           Anodonta [genus]
-            Anodonta cygnaea [species] {VERN=nld:zwanemossel,nld:brede zwanenmossel,eng:swan mussel}
-              =Anodonta cygnea [species]
+            Anodonta cygnea [species] {VERN=nld:zwanemossel,nld:brede zwanenmossel,eng:swan mussel}
+              =Anodonta cygnaea [species]
           Unio [genus] {VERN=nld:stroommossel}
             Unio crassus [species] {VERN=nld:Bataafse stroommossel}
               =Unio batavus [species]
@@ -1940,23 +1941,23 @@ Animalia [kingdom]
           Lutraria [genus]
             Lutraria lutraria [species] {VERN=nld:otterschelp,nld:ovale slijkschelp,nld:gewone otterschelp,eng:common otter-shell}
           Mactra [genus]
-            Mactra corallina [species] {VERN=nld:grote strandschelp,eng:trough shell}
-              =Mactra stultorum [species]
+            Mactra stultorum  (Linnaeus, 1758) [species] {VERN=nld:grote strandschelp,eng:trough shell}
+              =Mactra corallina Montagu, 1808 [species]
           Spisula [genus] {VERN=nld:strandschelp}
             Spisula elliptica [species] {VERN=nld:ovale strandschelp,eng:elliptical trough-shell}
             Spisula solida [species] {VERN=nld:stevige strandschelp,eng:thick trough-shell}
             Spisula subtruncata [species] {VERN=nld:halfgeknotte strandschelp,eng:cut trough-shell}
         Montacutidae [family]
-          Mysella [genus]
-            Mysella bidentata [species]
-              =Kurtiella bidentata [species]
+          Kurtiella [genus]
+            Kurtiella bidentata [species]
+              =Mysella bidentata [species]
         Neoleptonidae [family]
           Epilepton [genus]
             Epilepton clarkiae [species] {VERN=nld:drietandschelpje}
         Pharidae [family]
           Ensis [genus]
-            Ensis arcuatis [species] {VERN=nld:grote zwaardschede}
-              =Ensis magnus [species]
+            Ensis magnus [species] {VERN=nld:grote zwaardschede}
+              =Ensis arcuatis [species]
             Ensis ensis [species] {VERN=eng:common razor,nld:kleine zwaardschede,eng:sabre razor}
             Ensis siliqua [species] {VERN=nld:groot tafelmesheft,eng:pod razor}
         Psammobiidae [family]
@@ -1978,11 +1979,11 @@ Animalia [kingdom]
             Pisidium moitessierianum [species] {VERN=nld:dwergerwtenmossel}
           Sphaerium [genus] {VERN=nld:hoornschaal}
             Sphaerium corneum [species] {VERN=nld:gewone hoornschaal,eng:horny orb mussel}
+            Sphaerium lacustre [species] {VERN=nld:moerashoornschaal,eng:lake orb mussel}
+              =Musculium lacustre [species]
             Sphaerium rivicola [species] {VERN=nld:rivierhoornschaal,eng:nut orb mussel}
             Sphaerium solidum [species] {VERN=nld:stevige hoornschaal}
           Musculium [genus]
-            Musculium lacustre [species] {VERN=nld:moerashoornschaal,eng:lake orb mussel}
-              =Sphaerium lacustre [species]
         Tellinidae [family] {VERN=nld:platschelp,eng:tellin clams}
           Angulus [genus]
           Macoma [genus]
@@ -2003,12 +2004,12 @@ Animalia [kingdom]
           Callista [genus]
             Callista chione [species]
           Chamelea [genus]
-            Chamelea gallina [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp,eng:striped venus}
-              =Chamelea striatula [species]
+            Chamelea striatula [species] {VERN=eng:venus shell,nld:gewone venusschelp,nld: venusschelp,eng:striped venus}
+              =Chamelea gallina [species]
           Dosinia [genus]
             Dosinia exoleta [species] {VERN=nld:gewone artemisschelp,eng:rayed artemis}
           Mercenaria [genus]
-            Mercenaria mercenaria [species] {VERN=nld:amerikaanse venusschelp,eng:clam}
+            Mercenaria mercenaria [species] {VERN=nld:Amerikaanse venusschelp,eng:clam}
           Venerupis [genus]
             Venerupis corrugata [species] {VERN=nld:tapijtschelp}
               =Venerupis senegalensis [species]
@@ -2027,8 +2028,8 @@ Animalia [kingdom]
             Haliotis tuberculata [species] {VERN=nld:zee-oor,nld:gewone zeeoor,nld:zeeoor}
         Patellidae [family]
           Patella [genus] {VERN=nld:schaalhoren,eng:limpet}
-            Patella athletica [species] {VERN=nld:ruwe schaalhoren}
-              =Patella ulyssiponensis [species]
+            Patella ulyssiponensis [species] {VERN=nld:ruwe schaalhoren}
+              =Patella athletica [species]
             Patella depressa [species] {VERN=nld:gekleurde schaalhoren,eng:black-footed limpet}
               =Patella intermedia [species]
             Patella vulgata [species] {VERN=nld:schaalhoren,eng:common limpet}
@@ -2122,11 +2123,12 @@ Animalia [kingdom]
             Rissoa membranacea [species] {VERN=nld:vliezig drijfhorentje,eng:thick-lipped spire-shell}
         Triviidae [family]
           Trivia [genus]
-            Trivia arctica [species] {VERN=nld:ongevlekt koffieboontje,eng:nothern cowrie}
+            Trivia arctica [species] {VERN=nld:ongevlekt koffieboontje,eng:northern cowrie}
             Trivia monacha [species] {VERN=nld:gevlekte ribkaurie,nld:gevlekt koffieboontje,eng:spotted cowrie}
         Turritellidae [family]
-          Turritella Lamarck, 1799 [genus]
-            Turritella communis [species] {VERN=nld:penhoren,eng:auger}
+          Turritellinella Harzhauser & Landau, 2019 [genus]
+            Turritellinella tricarinata (Brocchi, 1814) [species] {VERN=nld:penhoren,eng:auger}
+              =Turritella communis Risso, 1826 [species]
       Neogastropoda [order]
         Buccinidae [family]
           Buccinum [genus]
