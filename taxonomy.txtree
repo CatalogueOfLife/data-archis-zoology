@@ -1,7 +1,7 @@
 Animalia [kingdom]
   Annelida [phylum]
     Hirudinea [class] {VERN=nld:bloedzuigers,eng:leeches}
-    Polychaeta [class] {VERN=nld:mariene borstelwormen,eng:marine bristle worms,GROUP=mollusc}
+    Polychaeta [class] {VERN=nld:mariene borstelwormen,eng:marine bristle worms, ENV=marine, GROUP=mollusc}
       Phyllodocida [order]
         Nereididae [family]
           Nereis [genus]
