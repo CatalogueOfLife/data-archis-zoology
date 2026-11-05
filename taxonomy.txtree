@@ -1097,16 +1097,16 @@ Animalia [kingdom]
             Anas crecca [species] {VERN=nld:wintertaling,eng:teal, GROUP=Wild birds}
             Anas penelope [species] {VERN=nld:smient,eng:wigeon, GROUP=Wild birds}
               =Mareca penelope [species]
-            Anas platyrhynchos domesticus [subspecies] {VERN=nld:eend,nld:soepeend,nld:tamme eend,eng:domestic mallard, GROUP=Domestic fowl}
             Anas platyrhynchos [species] {VERN=nld:wilde eend,eng:mallard, GROUP=Wild birds}
+              Anas platyrhynchos domesticus [subspecies] {VERN=nld:eend,nld:soepeend,nld:tamme eend,eng:domestic mallard, GROUP=Domestic fowl}
             Anas querquedula [species] {VERN=nld:zomertaling,eng:garganey, GROUP=Wild birds}
             Anas strepera [species] {VERN=nld:krakeend,eng:gadwall, GROUP=Wild birds}
           Anatinae [subfamily] {VERN=nld:gondeleenden,nld:duikeenden,eng:dabbling ducks, GROUP=Wild birds}
           Anserinae [subfamily] {VERN=nld:gansachtigen,eng:geese, GROUP=Wild birds}
           Anser [genus] {VERN=nld:gans,eng:goose, GROUP=Wild birds}
             Anser albifrons [species] {VERN=nld:kolgans,eng:white fronted goose, GROUP=Wild birds}
-            Anser anser domesticus [subspecies] {VERN=nld:gans,nld:soepgans,nld:huisgans,eng:domestic goose, GROUP=Domestic fowl}
             Anser anser [species] {VERN=nld:grauwe gans,eng:greylag goose, GROUP=Wild birds}
+              Anser anser domesticus [subspecies] {VERN=nld:gans,nld:soepgans,nld:huisgans,eng:domestic goose, GROUP=Domestic fowl}
             Anser brachyrhynchus [species] {VERN=nld:kleine rietgans,eng:pink footed goose, GROUP=Wild birds}
             Anser fabalis [species] {VERN=nld:rietgans,nld:taigarietgans,eng:bean goose, GROUP=Wild birds}
           Aythya [genus] {VERN=nld:duikeend,eng:aythya sp, GROUP=Wild birds}
@@ -1123,8 +1123,8 @@ Animalia [kingdom]
           Cygnus [genus] {VERN=nld:zwaan,eng:swan, GROUP=Wild birds}
             Cygnus bewickii [species] {VERN=nld:kleine zwaan,eng:bewicks swan, GROUP=Wild birds}
             Cygnus cygnus [species] {VERN=nld:wilde zwaan,eng:whooper swan, GROUP=Wild birds}
-            Cygnus olor domesticus [subspecies] {VERN=nld:tamme zwaan,eng:domestic mute swan}
             Cygnus olor [species] {VERN=nld:knobbelzwaan,eng:mute swan, GROUP=Wild birds}
+              Cygnus olor domesticus [subspecies] {VERN=nld:tamme zwaan,eng:domestic mute swan}
           Melanitta [genus] {VERN=nld:zeeëend,eng:scoter, GROUP=Wild birds}
             Melanitta fusca [species] {VERN=nld:grote zee-eend,eng:velvet scoter, GROUP=Wild birds}
             Melanitta nigra [species] {VERN=nld:zwarte zee-eend,eng:common scoter, GROUP=Wild birds}
@@ -1484,10 +1484,10 @@ Animalia [kingdom]
           Mustela Linnaeus, 1758 [genus]
             Mustela erminea [species] {VERN=eng:ermine,nld:hermelijn,eng:stoat, GROUP=Game mammals}
             Mustela nivalis [species] {VERN=nld:wezel,eng:weasel, GROUP=Game mammals}
-            Mustela putorius furo [subspecies] {VERN=nld:fret,eng:ferret, GROUP=Domestic mammals}
-              =Mustela furo [species]
             Mustela putorius [species] {VERN=nld:bunzing,eng:polecat, GROUP=Game mammals}
               =Putorius putorius [species]
+              Mustela putorius furo [subspecies] {VERN=nld:fret,eng:ferret, GROUP=Domestic mammals}
+                =Mustela furo [species]
             Mustela lutreola [species] {VERN=nld:Europese nerts}
         Phocidae [family] {VERN=nld:robben,nld:zeehondachtigen,eng:seals, ENV=marine}
           Halichoerus [genus]
@@ -1567,8 +1567,8 @@ Animalia [kingdom]
           Equus [genus] {VERN=nld:paarden,eng:horses, GROUP=Game mammals}
             Equus asinus [species] {VERN=nld:ezel,eng:ass, GROUP=Domestic mammals}
             Equus caballus [species] {VERN=nld:paard,eng:horse, GROUP=Domestic mammals}
-            Equus ferus caballus [subspecies] {GROUP=Game mammals}
             Equus ferus [species] {GROUP=Game mammals}
+              Equus ferus caballus [subspecies] {GROUP=Game mammals}
       Primates [order]
         Cebidae [family]
           Cebus [genus] {VERN=nld:kapucijnaap,eng:capuchin monkey, GROUP=Game mammals}
